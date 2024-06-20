@@ -1,0 +1,58 @@
+{
+    "all":{
+        "CS": {"nbrCustomers": 20000, "nbrContrats": 27000},
+        "TTALH": {"nbrCustomers": 12000, "nbrContrats": 16000},
+        "RSK": {"nbrCustomers": 9000, "nbrContrats": 14000},
+        "FM": {"nbrCustomers": 13000, "nbrContrats": 17000},
+        "BMK": {"nbrCustomers": 9500, "nbrContrats": 15700},
+        "MS": {"nbrCustomers": 15000, "nbrContrats": 19000},
+        "OR": {"nbrCustomers": 12000, "nbrContrats": 16000},
+        "SM": {"nbrCustomers": 8200, "nbrContrats": 13500},
+        "DT": {"nbrCustomers": 7600, "nbrContrats": 11300},
+        "GON": {"nbrCustomers": 6100, "nbrContrats": 8200},
+        "LSEH": {"nbrCustomers": 7500, "nbrContrats": 10300},
+        "DOED": {"nbrCustomers": 6900, "nbrContrats": 9700}
+    },
+    "month":{
+        "CS": {"nbrCustomers": 600, "nbrContrats": 11000},
+        "TTALH": {"nbrCustomers": 7000, "nbrContrats": 8000},
+        "RSK": {"nbrCustomers": 6000, "nbrContrats": 6100},
+        "FM": {"nbrCustomers": 5000, "nbrContrats": 5100},
+        "BMK": {"nbrCustomers": 4500, "nbrContrats": 5000},
+        "MS": {"nbrCustomers": 3900, "nbrContrats": 4000},
+        "OR": {"nbrCustomers": 3700, "nbrContrats": 3900},
+        "SM": {"nbrCustomers": 3500, "nbrContrats": 3600},
+        "DT": {"nbrCustomers": 3200, "nbrContrats": 3300},
+        "GON": {"nbrCustomers": 3000, "nbrContrats": 3100},
+        "LSEH": {"nbrCustomers": 1000, "nbrContrats": 3500},
+        "DOED": {"nbrCustomers": 3300, "nbrContrats": 3400}
+    },
+    "score":{
+        "CS": {"nbrCustomers": 8000, "nbrContrats": 10000},
+        "TTALH": {"nbrCustomers": 6000, "nbrContrats": 7000},
+        "RSK": {"nbrCustomers": 4500, "nbrContrats": 4700},
+        "FM": {"nbrCustomers": 4000, "nbrContrats": 4100},
+        "BMK": {"nbrCustomers": 4500, "nbrContrats": 4000},
+        "MS": {"nbrCustomers": 3400, "nbrContrats": 3500},
+        "OR": {"nbrCustomers": 3059, "nbrContrats": 3275},
+        "SM": {"nbrCustomers": 25169, "nbrContrats": 2675},
+        "DT": {"nbrCustomers": 2328, "nbrContrats": 2474},
+        "GON": {"nbrCustomers": 2100, "nbrContrats": 2200},
+        "LSEH": {"nbrCustomers": 1900, "nbrContrats": 2045},
+        "DOED": {"nbrCustomers": 1600, "nbrContrats": 1735}
+    },
+    "capacity":{
+        "CS": {"nbrCustomers": 8000, "nbrContrats": 10000},
+        "TTALH": {"nbrCustomers": 6000, "nbrContrats": 7000},
+        "RSK": {"nbrCustomers": 4500, "nbrContrats": 4700},
+        "FM": {"nbrCustomers": 4000, "nbrContrats": 4100},
+        "BMK": {"nbrCustomers": 4500, "nbrContrats": 4000},
+        "MS": {"nbrCustomers": 3400, "nbrContrats": 3500},
+        "OR": {"nbrCustomers": 3059, "nbrContrats": 3275},
+        "SM": {"nbrCustomers": 25169, "nbrContrats": 2675},
+        "DT": {"nbrCustomers": 2328, "nbrContrats": 2474},
+        "GON": {"nbrCustomers": 2100, "nbrContrats": 2200},
+        "LSEH": {"nbrCustomers": 1900, "nbrContrats": 2045},
+        "DOED": {"nbrCustomers": 1600, "nbrContrats": 1735}
+    }
+}

@@ -1,0 +1,109 @@
+<div id="popup" class="bg-popup">
+    <div  class="container center-v-h">
+        <div id="form-email" class="popup column">
+            <div id="title" class="top-title row">
+                <div class="text-title">{{title}}</div>
+                <div class="container-close center-v-h " (click)="showPopupEmail();">
+                    <mat-icon class="icon-close">close</mat-icon>
+                </div>
+            </div>
+            <div class="email-box column">
+                <div class="center-v-h"><img class="icon size-30 padding-right" src="assets/caat/msgfwd3.png" alt="icon-score"></div>
+                <fieldset>
+
+                    <div class="text-title"><span class="section">1</span>De: support@datumlab.com</div>
+
+                    <div style="width: 100%;">
+                        <form class="example-form " style="display: flex; flex-direction: row;align-items: center;">
+                            <mat-form-field class="example-full-width">
+                                <input 
+                                type="text"
+                                placeholder="À:"
+                                aria-label="Number"
+                                matInput
+                            >
+                            </mat-form-field>
+                        </form>
+                    </div>
+
+                    <div style="width: 100%;">
+                        <form class="example-form " style="display: flex; flex-direction: row;align-items: center;">
+                            <mat-form-field class="example-full-width">
+                                <input 
+                                type="text"
+                                placeholder="Objet:"
+                                aria-label="Number"
+                                matInput
+                            >
+                            </mat-form-field>
+                        </form>
+                    </div>
+
+                </fieldset>
+                <div class="divider"></div>
+                <fieldset>
+
+                    <div class="text-title"><span class="section">2</span>Paramètre de pièce jointe </div>
+                    <div style="display: flex; flex-direction: row; justify-content: space-between; width: 95%;">
+                        <div style="width: 50%; display: flex; flex-direction: row; ">
+                            <mat-form-field >
+                                <mat-label>Pièces jointes:</mat-label>
+                                <mat-select>
+                                  <mat-option *ngFor="let itemPiece of pieceTypes" [value]="itemPiece.value">
+                                    {{itemPiece.viewValue}}
+                                  </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div style="width: 50%; display: flex; flex-direction: row;">
+                            <mat-form-field>
+                                <mat-label>Fréquence:</mat-label>
+                                <mat-select>
+                                  <mat-option *ngFor="let frequence of frequences" [value]="frequence.value">
+                                    {{frequence.viewValue}}
+                                  </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+
+                    </div>
+                    <div style="width: 90%;">
+                        <mat-form-field>
+                            <mat-label>Options avancées:</mat-label>
+                            <mat-select>
+                              <mat-option *ngFor="let advancedOption of advancedOptions" [value]="advancedOption.value">
+                                {{advancedOption.viewValue}}
+                              </mat-option>
+                            </mat-select>
+                        </mat-form-field>
+                    </div>
+
+                   <div style="width: 90%;margin-top: 20px;">
+                    <mat-form-field style="font-size: 18px;" >
+                        <mat-label>Déscription</mat-label>
+                        <textarea 
+                            matInput
+                            cdkTextareaAutosize
+                            #autosize="cdkTextareaAutosize"
+                            cdkAutosizeMinRows="1"
+                            cdkAutosizeMaxRows="10">
+                        </textarea>
+                    </mat-form-field>
+                </div>
+
+                </fieldset>
+
+                <div style="width: 80%; padding-left: 20px">
+                    <button class="button" mat-raised-button color="primary" 
+                            style="display: flex; align-items: center;"
+                            (click)="send()"
+                        >
+                        Envoyer
+                    </button>
+                </div>
+            </div>    
+        </div>
+
+
+    </div>
+</div>

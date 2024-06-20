@@ -1,0 +1,406 @@
+{
+    "all":{
+        "CS":{
+            "Casablanca": {"nbrCustomers": 600, "nbrContrats": 11000},
+            "Mohammédia": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "El Jadida": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Nouaceur": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Médiouna": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Benslimane": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Berrechid": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "Settat": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Sidi Bennour": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "RSK":{
+            "Kenitra": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Khémisset": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Rabat": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Salé": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Sidi Kacem": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Sidi Slimane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Skhirate-Témara": {"nbrCustomers": 12000, "nbrContrats": 16000}
+        },
+        "OR":{
+            "Berkane": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Driouch": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Figuig": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Guercif": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Jerada": {"nbrCustomers": 4500, "nbrContrats": 4000},
+            "Nador": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Oujda-Angad": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Taourirt": {"nbrCustomers": 25169, "nbrContrats": 2675}
+        },
+        "MS":{
+            "Marrakech": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Chichaoua": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Al Haouz": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "El Kelâa des Sraghna": {"nbrCustomers": 8200, "nbrContrats": 13500},
+            "Essaouira": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Rehamna": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Safi": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Youssoufia": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        },
+        "SM": {
+            "Agadir Ida-Outanane": {"nbrCustomers": 2328, "nbrContrats": 2474},
+            "Chtouka-Aït Baha": {"nbrCustomers": 2100, "nbrContrats": 2200},
+            "Inezgane-Aït Melloul": {"nbrCustomers": 1900, "nbrContrats": 2045},
+            "Taroudant": {"nbrCustomers": 1600, "nbrContrats": 1735},
+            "Tata": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Tiznit": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "DOED": {
+            "Aousserd": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Oued Ed-Dahab": {"nbrCustomers": 6000, "nbrContrats": 6100}
+        },
+        "FM": {
+            "Fès": {"nbrCustomers": 600, "nbrContrats": 11000},
+            "Boulemane": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Sefrou": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Moulay Yaâcoub": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Taounate": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Taza": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Meknès": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "El Hajeb": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Ifrane": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "TTALH":{
+            "Tanger-Asilah": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Fahs Anjra": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "M'diq-Fnideq": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Chefchaouen": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Larache": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Ouezzane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Tétouan": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Al Hoceïma": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "BMK":{
+            "Béni Mellal": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Azilal": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Fquih Ben Salah": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Khénifra": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Khouribga": {"nbrCustomers": 4500, "nbrContrats": 4000}
+        },
+        "DT":{
+            "Ouarzazate": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Tinghir": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Zagora": {"nbrCustomers": 25169, "nbrContrats": 2675},
+            "Errachidia": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Midelt": {"nbrCustomers": 3900, "nbrContrats": 4000}
+        },
+        "GON": {
+            "Assa-Zag": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Guelmim": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Sidi Ifni": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "Tan-Tan": {"nbrCustomers": 8200, "nbrContrats": 13500}
+        },
+        "LSEH": {
+            "Laâyoune": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Boujdour": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Tarfaya": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Es-Semara": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        }
+    },
+    "score":{
+        "CS":{
+            "Casablanca": {"nbrCustomers": 8000, "nbrContrats": 11000},
+            "Mohammédia": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "El Jadida": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Nouaceur": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Médiouna": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Benslimane": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Berrechid": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "Settat": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Sidi Bennour": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "RSK":{
+            "Kenitra": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Khémisset": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Rabat": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Salé": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Sidi Kacem": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Sidi Slimane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Skhirate-Témara": {"nbrCustomers": 12000, "nbrContrats": 16000}
+        },
+        "OR":{
+            "Berkane": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Driouch": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Figuig": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Guercif": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Jerada": {"nbrCustomers": 4500, "nbrContrats": 4000},
+            "Nador": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Oujda-Angad": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Taourirt": {"nbrCustomers": 25169, "nbrContrats": 2675}
+        },
+        "MS":{
+            "Marrakech": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Chichaoua": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Al Haouz": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "El Kelâa des Sraghna": {"nbrCustomers": 8200, "nbrContrats": 13500},
+            "Essaouira": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Rehamna": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Safi": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Youssoufia": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        },
+        "SM": {
+            "Agadir Ida-Outanane": {"nbrCustomers": 2328, "nbrContrats": 2474},
+            "Chtouka-Aït Baha": {"nbrCustomers": 2100, "nbrContrats": 2200},
+            "Inezgane-Aït Melloul": {"nbrCustomers": 1900, "nbrContrats": 2045},
+            "Taroudant": {"nbrCustomers": 1600, "nbrContrats": 1735},
+            "Tata": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Tiznit": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "DOED": {
+            "Aousserd": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Oued Ed-Dahab": {"nbrCustomers": 6000, "nbrContrats": 6100}
+        },
+        "FM": {
+            "Fès": {"nbrCustomers": 600, "nbrContrats": 11000},
+            "Boulemane": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Sefrou": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Moulay Yaâcoub": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Taounate": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Taza": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Meknès": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "El Hajeb": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Ifrane": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "TTALH":{
+            "Tanger-Asilah": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Fahs Anjra": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "M'diq-Fnideq": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Chefchaouen": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Larache": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Ouezzane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Tétouan": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Al Hoceïma": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "BMK":{
+            "Béni Mellal": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Azilal": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Fquih Ben Salah": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Khénifra": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Khouribga": {"nbrCustomers": 4500, "nbrContrats": 4000}
+        },
+        "DT":{
+            "Ouarzazate": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Tinghir": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Zagora": {"nbrCustomers": 25169, "nbrContrats": 2675},
+            "Errachidia": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Midelt": {"nbrCustomers": 3900, "nbrContrats": 4000}
+        },
+        "GON": {
+            "Assa-Zag": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Guelmim": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Sidi Ifni": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "Tan-Tan": {"nbrCustomers": 8200, "nbrContrats": 13500}
+        },
+        "LSEH": {
+            "Laâyoune": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Boujdour": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Tarfaya": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Es-Semara": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        }
+    },
+    "month":{
+        "CS":{
+            "Casablanca": {"nbrCustomers": 600, "nbrContrats": 11000},
+            "Mohammédia": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "El Jadida": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Nouaceur": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Médiouna": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Benslimane": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Berrechid": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "Settat": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Sidi Bennour": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "RSK":{
+            "Kenitra": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Khémisset": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Rabat": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Salé": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Sidi Kacem": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Sidi Slimane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Skhirate-Témara": {"nbrCustomers": 12000, "nbrContrats": 16000}
+        },
+        "OR":{
+            "Berkane": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Driouch": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Figuig": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Guercif": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Jerada": {"nbrCustomers": 4500, "nbrContrats": 4000},
+            "Nador": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Oujda-Angad": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Taourirt": {"nbrCustomers": 25169, "nbrContrats": 2675}
+        },
+        "MS":{
+            "Marrakech": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Chichaoua": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Al Haouz": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "El Kelâa des Sraghna": {"nbrCustomers": 8200, "nbrContrats": 13500},
+            "Essaouira": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Rehamna": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Safi": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Youssoufia": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        },
+        "SM": {
+            "Agadir Ida-Outanane": {"nbrCustomers": 2328, "nbrContrats": 2474},
+            "Chtouka-Aït Baha": {"nbrCustomers": 2100, "nbrContrats": 2200},
+            "Inezgane-Aït Melloul": {"nbrCustomers": 1900, "nbrContrats": 2045},
+            "Taroudant": {"nbrCustomers": 1600, "nbrContrats": 1735},
+            "Tata": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Tiznit": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "DOED": {
+            "Aousserd": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Oued Ed-Dahab": {"nbrCustomers": 6000, "nbrContrats": 6100}
+        },
+        "FM": {
+            "Fès": {"nbrCustomers": 600, "nbrContrats": 11000},
+            "Boulemane": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Sefrou": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Moulay Yaâcoub": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Taounate": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Taza": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Meknès": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "El Hajeb": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Ifrane": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "TTALH":{
+            "Tanger-Asilah": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Fahs Anjra": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "M'diq-Fnideq": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Chefchaouen": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Larache": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Ouezzane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Tétouan": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Al Hoceïma": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "BMK":{
+            "Béni Mellal": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Azilal": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Fquih Ben Salah": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Khénifra": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Khouribga": {"nbrCustomers": 4500, "nbrContrats": 4000}
+        },
+        "DT":{
+            "Ouarzazate": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Tinghir": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Zagora": {"nbrCustomers": 25169, "nbrContrats": 2675},
+            "Errachidia": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Midelt": {"nbrCustomers": 3900, "nbrContrats": 4000}
+        },
+        "GON": {
+            "Assa-Zag": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Guelmim": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Sidi Ifni": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "Tan-Tan": {"nbrCustomers": 8200, "nbrContrats": 13500}
+        },
+        "LSEH": {
+            "Laâyoune": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Boujdour": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Tarfaya": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Es-Semara": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        }
+    },
+    "capacity":{
+        "CS":{
+            "Casablanca": {"nbrCustomers": 600, "nbrContrats": 11000},
+            "Mohammédia": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "El Jadida": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Nouaceur": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Médiouna": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Benslimane": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Berrechid": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "Settat": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Sidi Bennour": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "RSK":{
+            "Kenitra": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Khémisset": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Rabat": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Salé": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Sidi Kacem": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Sidi Slimane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Skhirate-Témara": {"nbrCustomers": 12000, "nbrContrats": 16000}
+        },
+        "OR":{
+            "Berkane": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Driouch": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Figuig": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Guercif": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Jerada": {"nbrCustomers": 4500, "nbrContrats": 4000},
+            "Nador": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Oujda-Angad": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Taourirt": {"nbrCustomers": 25169, "nbrContrats": 2675}
+        },
+        "MS":{
+            "Marrakech": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Chichaoua": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Al Haouz": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "El Kelâa des Sraghna": {"nbrCustomers": 8200, "nbrContrats": 13500},
+            "Essaouira": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Rehamna": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Safi": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Youssoufia": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        },
+        "SM": {
+            "Agadir Ida-Outanane": {"nbrCustomers": 2328, "nbrContrats": 2474},
+            "Chtouka-Aït Baha": {"nbrCustomers": 2100, "nbrContrats": 2200},
+            "Inezgane-Aït Melloul": {"nbrCustomers": 1900, "nbrContrats": 2045},
+            "Taroudant": {"nbrCustomers": 1600, "nbrContrats": 1735},
+            "Tata": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Tiznit": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "DOED": {
+            "Aousserd": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Oued Ed-Dahab": {"nbrCustomers": 6000, "nbrContrats": 6100}
+        },
+        "FM": {
+            "Fès": {"nbrCustomers": 600, "nbrContrats": 11000},
+            "Boulemane": {"nbrCustomers": 7000, "nbrContrats": 8000},
+            "Sefrou": {"nbrCustomers": 6000, "nbrContrats": 6100},
+            "Moulay Yaâcoub": {"nbrCustomers": 5000, "nbrContrats": 5100},
+            "Taounate": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Taza": {"nbrCustomers": 3900, "nbrContrats": 4000},
+            "Meknès": {"nbrCustomers": 3700, "nbrContrats": 3900},
+            "El Hajeb": {"nbrCustomers": 3500, "nbrContrats": 3600},
+            "Ifrane": {"nbrCustomers": 3200, "nbrContrats": 3300}
+        },
+        "TTALH":{
+            "Tanger-Asilah": {"nbrCustomers": 20000, "nbrContrats": 27000},
+            "Fahs Anjra": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "M'diq-Fnideq": {"nbrCustomers": 9000, "nbrContrats": 14000},
+            "Chefchaouen": {"nbrCustomers": 13000, "nbrContrats": 17000},
+            "Larache": {"nbrCustomers": 9500, "nbrContrats": 15700},
+            "Ouezzane": {"nbrCustomers": 15000, "nbrContrats": 19000},
+            "Tétouan": {"nbrCustomers": 12000, "nbrContrats": 16000},
+            "Al Hoceïma": {"nbrCustomers": 15000, "nbrContrats": 19000}
+        },
+        "BMK":{
+            "Béni Mellal": {"nbrCustomers": 8000, "nbrContrats": 10000},
+            "Azilal": {"nbrCustomers": 6000, "nbrContrats": 7000},
+            "Fquih Ben Salah": {"nbrCustomers": 4500, "nbrContrats": 4700},
+            "Khénifra": {"nbrCustomers": 4000, "nbrContrats": 4100},
+            "Khouribga": {"nbrCustomers": 4500, "nbrContrats": 4000}
+        },
+        "DT":{
+            "Ouarzazate": {"nbrCustomers": 3400, "nbrContrats": 3500},
+            "Tinghir": {"nbrCustomers": 3059, "nbrContrats": 3275},
+            "Zagora": {"nbrCustomers": 25169, "nbrContrats": 2675},
+            "Errachidia": {"nbrCustomers": 4500, "nbrContrats": 5000},
+            "Midelt": {"nbrCustomers": 3900, "nbrContrats": 4000}
+        },
+        "GON": {
+            "Assa-Zag": {"nbrCustomers": 3000, "nbrContrats": 3100},
+            "Guelmim": {"nbrCustomers": 1000, "nbrContrats": 3500},
+            "Sidi Ifni": {"nbrCustomers": 3300, "nbrContrats": 3400},
+            "Tan-Tan": {"nbrCustomers": 8200, "nbrContrats": 13500}
+        },
+        "LSEH": {
+            "Laâyoune": {"nbrCustomers": 7600, "nbrContrats": 11300},
+            "Boujdour": {"nbrCustomers": 6100, "nbrContrats": 8200},
+            "Tarfaya": {"nbrCustomers": 7500, "nbrContrats": 10300},
+            "Es-Semara": {"nbrCustomers": 6900, "nbrContrats": 9700}
+        }
+    }
+}

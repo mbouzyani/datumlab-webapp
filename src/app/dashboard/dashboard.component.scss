@@ -1,0 +1,122 @@
+.container_dashbord {
+    flex: 1;
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 40px;
+    .stats-cards {
+        width: 100%;
+        margin-bottom: 10px;
+        // flex-wrap: wrap;
+        .item-card {
+            flex: 1;
+            min-width: 180px;
+        }
+        .item_box {
+            padding: 10px;
+            background-color: white;
+        }
+        :not(:last-child){
+            margin-right: 8px;
+        }
+    }
+    .container_report{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        :not(:last-child){
+            margin-right: 5px;
+        }
+        .item_1{
+            flex: 1.5;
+            min-width: 340px;
+            background-color: white;
+            margin-top: 10px;
+            height: 416px;
+        }
+        .item_2 {
+            flex: 1.2;
+            min-width: 340px;
+            background-color: white;
+            margin-top: 10px;
+            height: 416px;
+        }
+        .item_3 {
+            flex: 1;
+            min-width: 340px;
+            background-color: white;
+            margin-top: 10px;
+            height: 416px;
+            padding-right: 53px;
+
+        }
+        .item_4 {
+            flex: 1;
+            width: 486px;
+            background-color: white;
+            margin-top: 10px;
+
+            height: 790px;
+        }
+        .second-line-second-item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+
+        }
+        .item_5 {
+            // flex: 1;
+            // width: 100%;
+            min-width: 340px;
+            background-color: white;
+            margin-top: 10px;
+
+            height: 390px;
+
+        }
+        .item_6 {
+            // flex: 1;
+            // width: 100%;
+            min-width: 340px;
+            background-color: white;
+            margin-top: 10px;
+
+            height: 390px;
+        }
+        .item_7 {
+            flex: 1;
+            // position: absolute;
+            // align-self: flex-end;
+            min-width: 340px;
+            background-color: white;
+            margin-top: 10px;
+
+            height: 480px;
+
+        }
+    }
+
+}
+
+a:after {
+    content: "";
+    font-family: "feather";
+    font-size: 18px;
+    border: none;
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+@media only screen and (max-width: 1193px) {
+    .stats-cards {
+        flex-wrap: wrap;
+    }
+    .item-card {
+        margin-top: 10px !important;
+    }
+}
+

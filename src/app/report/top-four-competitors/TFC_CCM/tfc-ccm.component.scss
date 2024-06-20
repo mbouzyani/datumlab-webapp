@@ -1,0 +1,102 @@
+.container-report {
+    width: 100%;
+}
+
+.main-container {
+
+    width: 100%;
+
+}
+.mat-form-field {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    font-size: 14px;
+    width: 112px;
+    margin-right: 20px;
+}
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+    color: #4680ff;
+    font-size: 12px;
+}
+
+.main-content1 {
+
+    width: 100%;
+    justify-content: space-between;
+    .bar-chart {
+        // width: 46vw;
+        flex: 1.8;
+        min-width: 340px;
+        height: 39.5vh;
+        min-height: 400px;
+        
+    }
+    
+    .area-chart {
+        // width: 29vw;
+        flex: 1;
+        min-width: 340px;
+        height: 39.5vh;
+        min-height: 400px;
+        margin-left: 12px;
+    }
+}
+
+.menu-btn {
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.matdivider-margin {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.data-table {
+    width: 100%;
+    overflow-x: scroll;
+    background-color: #fff;
+}
+
+
+
+table {
+    width: 100%;
+    max-width: 100vw;
+    // min-width: 600px;
+    overflow-x: scroll;
+}
+td, th {
+    width: 11vw;
+    min-width: 62px;
+}
+td.small, th.small {
+    width: 6vw !important;
+    min-width: 50px !important;
+}
+
+mat-paginator {
+    min-width: 400px;
+}
+th.mat-sort-header-sorted {
+    color: black;
+}
+
+
+
+.mat-sort-header-stem {
+    height: 3px !important;
+    width: 10px !important;
+    transform: rotate(180deg) !important;
+}
+.mat-sort-header-pointer-left, .mat-sort-header-pointer-right {
+    width: 7px !important;
+    height: 3px !important;
+}
+.mat-sort-header-pointer-middle{
+    width: 0px !important;
+    height: 0px !important;
+}

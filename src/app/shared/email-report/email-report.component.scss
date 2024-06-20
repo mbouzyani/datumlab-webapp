@@ -1,0 +1,195 @@
+.bg-popup {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0px;
+    left: 0px;
+    background-color: #43434861;
+    z-index: 20;
+    .popup {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 600px;
+        min-width: 200px;
+        min-height: 300px;
+        background-color: #fff;
+        border-radius: 2px;
+        box-shadow: 1px 1px 5px #1211117d;
+        z-index: 22;
+        border-radius: 10px;
+        overflow: hidden;
+        .top-title {
+            padding: 9px;
+            margin: 0px !important;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(60deg, #00acc1, #3f51b5);
+            box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.14), 0 7px 5px -5px #3f51b5;
+           .text-title {
+                color: white;
+                font-size: 14px;
+                flex: 1;
+           }
+           .btn-close {
+                height: 27px;
+                width: 27px;
+                display: flex;
+                justify-content: center;
+                cursor: pointer;
+                border: 1px solid #ddd;
+                .mat-icon {
+                    width: auto !important;
+                }
+
+           }
+
+        }
+        .divider {
+            margin-top: 23px;
+            // border: 1px solid #ddd;
+        }
+        .email-box{
+            // font-family: 'Nunito', sans-serif;
+            color: #384047; 
+
+            background-color: gray;
+            box-sizing: border-box;
+            box-sizing: border-box;
+           
+            padding: 10px 20px;
+            background: #f0f0f024;
+            border-radius: 8px;
+        h1 {
+
+            margin: 0 0 30px 0;
+            margin-bottom: 1px;
+            text-align: center;
+        }
+
+        fieldset {
+            margin-bottom: 4px;
+            border: none;
+        }
+
+        legend {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 2px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            margin-bottom: 1px;
+            margin-top: 4px;
+        }
+
+        label.light {
+
+            font-weight: 300;
+            display: inline;
+        }
+
+
+        .section {
+            background-color: #bfbfbf;
+            color: #fff;
+            height: 22px;
+            width: 22px;
+            display: inline-block;
+            font-size: 0.75em;
+            margin-right: 4px;
+            line-height: 23px;
+            text-align: center;
+            text-shadow: 0 1px 0 rgba(255,255,0.2);
+            border-radius: 100%;
+        }
+
+
+        
+        @media screen and (min-width: 480px) {
+            form {
+                max-width: 480px;
+            }
+        }
+            
+        
+
+        }
+    }
+}
+
+
+.container-support {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f4f5fa;
+}
+
+.container-title {
+    width: 50vw;
+    min-width: 350px;
+    height: 90px;
+    background: linear-gradient(60deg, #00acc1, #3f51b5);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0,.14), 0 7px 10px -5px #3f51b5;
+    padding: 15px;
+    border-radius: 3px;
+    z-index: 2;
+
+    .title {
+        color: #FFFFFF;
+        margin-top: 0px;
+        min-height: auto;
+        font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+        font-weight: 300;
+        margin-bottom: 3px;
+        text-decoration: none;
+    }
+    .sub-title {
+        color: rgba(255,255,255,.62);
+        margin: 0;
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
+.container-f-t {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.button{
+    background-color: #2577ba;
+    padding-left: 30px;
+    padding-right: 30px;
+    :hover {
+        box-shadow: 0 12px 20px -10px rgba(0, 172, 193,.28), 0 4px 20px 0 rgba(0, 0, 0,.12), 0 7px 8px -5px rgba(0, 172, 193,.2);
+    }
+}
+mat-form-field {
+    margin-right: 12px;
+}
+textarea {
+    height: 80px;
+}
+
+
+.container-close {
+    padding: 5px;
+    cursor: pointer;
+    :hover{
+        background-color: #5357635e;
+    }
+    .icon-close{
+        color: white;
+        font-size: 21px;
+
+        :hover {
+            color: white !important; 
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "global":{
+
+        "elite": {
+            "1-2": {"nbrCustomers": 1060, "nbrContrats": 2587}, 
+            "2-3": {"nbrCustomers": 3600, "nbrContrats": 3800},
+            "3-4": {"nbrCustomers": 4000, "nbrContrats": 4900},
+            "4-5": {"nbrCustomers": 5000, "nbrContrats": 5480},
+            "5-6": {"nbrCustomers": 5200, "nbrContrats": 5290}
+        },
+        "ultime": {
+            "1-2": {"nbrCustomers": 1800, "nbrContrats": 2000}, 
+            "2-3": {"nbrCustomers": 1500, "nbrContrats": 1600},
+            "3-4": {"nbrCustomers": 3800, "nbrContrats": 4500},
+            "4-5": {"nbrCustomers": 4200, "nbrContrats": 4780},
+            "5-6": {"nbrCustomers": 3400, "nbrContrats": 3600}
+        }
+    },
+    "month":{
+
+        "elite": {
+            "1-2": {"nbrCustomers": 160, "nbrContrats": 2587}, 
+            "2-3": {"nbrCustomers": 360, "nbrContrats": 300},
+            "3-4": {"nbrCustomers": 4000, "nbrContrats": 490},
+            "4-5": {"nbrCustomers": 500, "nbrContrats": 540},
+            "5-6": {"nbrCustomers": 5200, "nbrContrats": 590}
+        },
+        "ultime": {
+            "1-2": {"nbrCustomers": 1800, "nbrContrats": 2000}, 
+            "2-3": {"nbrCustomers": 1500, "nbrContrats": 1600},
+            "3-4": {"nbrCustomers": 3800, "nbrContrats": 4500},
+            "4-5": {"nbrCustomers": 4200, "nbrContrats": 4780},
+            "5-6": {"nbrCustomers": 3400, "nbrContrats": 3600}
+        }
+    },
+    "capacity":{
+
+        "elite": {
+            "1-2": {"nbrCustomers": 250, "nbrContrats": 2587}, 
+            "2-3": {"nbrCustomers": 300, "nbrContrats": 3800},
+            "3-4": {"nbrCustomers": 400, "nbrContrats": 4900},
+            "4-5": {"nbrCustomers": 500, "nbrContrats": 540},
+            "5-6": {"nbrCustomers": 520, "nbrContrats": 590}
+        },
+        "ultime": {
+            "1-2": {"nbrCustomers": 1800, "nbrContrats": 2000}, 
+            "2-3": {"nbrCustomers": 1500, "nbrContrats": 1600},
+            "3-4": {"nbrCustomers": 3800, "nbrContrats": 4500},
+            "4-5": {"nbrCustomers": 4200, "nbrContrats": 4780},
+            "5-6": {"nbrCustomers": 3400, "nbrContrats": 3600}
+        }
+    },
+    "capacityRegion":{
+
+        "elite": {
+            "1-2": {"nbrCustomers": 850, "nbrContrats": 1287}, 
+            "2-3": {"nbrCustomers": 1200, "nbrContrats": 900},
+            "3-4": {"nbrCustomers": 400, "nbrContrats": 3200},
+            "4-5": {"nbrCustomers": 500, "nbrContrats": 540},
+            "5-6": {"nbrCustomers": 1520, "nbrContrats": 1590}
+        },
+        "ultime": {
+            "1-2": {"nbrCustomers": 1800, "nbrContrats": 2000}, 
+            "2-3": {"nbrCustomers": 1500, "nbrContrats": 1600},
+            "3-4": {"nbrCustomers": 3800, "nbrContrats": 4500},
+            "4-5": {"nbrCustomers": 4200, "nbrContrats": 4780},
+            "5-6": {"nbrCustomers": 3400, "nbrContrats": 3600}
+        }
+    },
+    "region":{
+
+        "elite": {
+            "1-2": {"nbrCustomers": 960, "nbrContrats": 987}, 
+            "2-3": {"nbrCustomers": 1600, "nbrContrats": 3800},
+            "3-4": {"nbrCustomers": 4000, "nbrContrats": 2900},
+            "4-5": {"nbrCustomers": 5000, "nbrContrats": 5480},
+            "5-6": {"nbrCustomers": 5200, "nbrContrats": 5290}
+        },
+        "ultime": {
+            "1-2": {"nbrCustomers": 1800, "nbrContrats": 2000}, 
+            "2-3": {"nbrCustomers": 1500, "nbrContrats": 1600},
+            "3-4": {"nbrCustomers": 3800, "nbrContrats": 4500},
+            "4-5": {"nbrCustomers": 4200, "nbrContrats": 4780},
+            "5-6": {"nbrCustomers": 3400, "nbrContrats": 3600}
+        }
+    },
+    "city":{
+
+        "elite": {
+            "1-2": {"nbrCustomers": 460, "nbrContrats": 287}, 
+            "2-3": {"nbrCustomers": 360, "nbrContrats": 800},
+            "3-4": {"nbrCustomers": 400, "nbrContrats": 490},
+            "4-5": {"nbrCustomers": 500, "nbrContrats": 148},
+            "5-6": {"nbrCustomers": 528, "nbrContrats": 529}
+        },
+        "ultime": {
+            "1-2": {"nbrCustomers": 250, "nbrContrats": 180}, 
+            "2-3": {"nbrCustomers": 500, "nbrContrats": 100},
+            "3-4": {"nbrCustomers": 380, "nbrContrats": 450},
+            "4-5": {"nbrCustomers": 420, "nbrContrats": 478},
+            "5-6": {"nbrCustomers": 340, "nbrContrats": 360}
+        }
+    }
+
+}
+

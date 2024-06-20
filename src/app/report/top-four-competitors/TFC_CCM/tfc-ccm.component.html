@@ -1,0 +1,189 @@
+
+<div class="container-report" >
+  <div class="row btns-row" *ngIf="!isSummarize">
+    <div class="row main-btns-select">
+      <div class="select-container-112">
+        <mat-form-field >
+          <mat-label>Durée</mat-label>
+          <mat-select [(value)]="selectedDuration">
+            <mat-option value="6Months" (click)="requestData();">6 dernièrs mois</mat-option>
+            <mat-option value="12Months" (click)="requestData();">12 dernièrs mois</mat-option>
+            <mat-option value="18Months" (click)="requestData();">18 dernièrs mois</mat-option>
+            <mat-option value="2Years" (click)="requestData();">2 dernierès années</mat-option>
+            <mat-option value="3Years" (click)="requestData();">3 dernières années</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="select-container-112">
+        <mat-form-field>
+          <mat-label class="select_title">Score</mat-label>
+          <mat-select [formControl]="scoreForm" multiple>
+            <mat-select-trigger>
+              {{scoreForm.value ? scoreForm.value[0] : ''}}
+              <span *ngIf="scoreForm.value?.length > 1" class="example-additional-selection">
+                (+{{scoreForm.value.length - 1}} {{scoreForm.value?.length === 2 ? 'autre' : 'autres'}})
+              </span>
+            </mat-select-trigger>
+            <mat-option 
+              *ngFor="let score of scoreList" 
+              [value]="score" 
+              [disabled]="scoreForm.value.length==1 && scoreForm.value[0]==score" 
+              (click)="scoreForm.value.length==1 && scoreForm.value[0]==score ?  '' : requestData(); "
+            >{{score}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="select-container-112">
+        <mat-form-field>
+          <mat-label class="select_title">Région</mat-label>
+          <mat-select [formControl]="regionForm" panelClass="mat-select-panel" multiple>
+            <mat-select-trigger>
+              {{regionForm.value ? regionForm.value[0] : ''}}
+              <span *ngIf="regionForm.value?.length > 1" class="example-additional-selection">
+                (+{{regionForm.value.length - 1}} {{regionForm.value?.length === 2 ? 'autre' : 'autres'}})
+              </span>
+            </mat-select-trigger>
+            <mat-option 
+              *ngFor="let region of regionListForm" 
+              [value]="region" 
+              [disabled]="regionForm.value.length==1 && regionForm.value[0]==region"  
+              (click)="regionForm.value.length==1 && regionForm.value[0]==region ?  '' : requestData(); "
+            >{{region}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+      <div class="select-container-224">
+        <form class="example-form " style="display: flex; flex-direction: row;align-items: center;">
+          
+          <mat-form-field class="example-full-width">
+            <input 
+              type="text"
+              placeholder="Choisir une ville"
+              aria-label="Number"
+              matInput
+              [formControl]="cityForm"
+              [matAutocomplete]="auto"
+            >
+            <mat-autocomplete #auto="matAutocomplete">
+              <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (click)="requestData();">
+                {{option}}
+              </mat-option>
+            </mat-autocomplete>
+          </mat-form-field>
+          <mat-icon style="font-size: 15px; cursor: pointer;" (click)="clearCity();">close</mat-icon>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="btn-share">
+        <button mat-raised-button color="Basic" 
+              style="display: flex; align-items: center;" 
+              (click)="email.showPopupEmail()">
+          <mat-icon style="font-size: 20px;">share</mat-icon>
+          Partager
+        </button>
+      </div>
+      <div class="btn-export">
+        <button mat-raised-button color="primary" style="display: flex; align-items: center;">
+          <mat-icon style="font-size: 20px;">save_alt</mat-icon>
+           PDF
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-chart column">
+    <div class="main-content1 row" *ngIf="!isSummarize">
+      <div class="bar-chart">
+        <div id="container2"></div>
+      </div>
+      <div class="area-chart">
+        <div id="container3"></div>
+      </div>
+    </div>
+
+    <mat-divider class="matdivider-margin" *ngIf="!isSummarize"></mat-divider> 
+
+    <div class="main-content2" style="padding: 10px; margin-left: -8px;">
+      <div fxFlex="100">
+        <div>
+          <table mat-table [dataSource]="dataSource" matSort >
+            <ng-container matColumnDef="position">
+              <th mat-header-cell *matHeaderCellDef class="small"> No. </th>
+              <td mat-cell *matCellDef="let element" class="small" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}"> {{element.position}} </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="concurrents">
+              <th mat-header-cell *matHeaderCellDef > Concurrents </th>
+              <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}"> {{element.concurrents}} </td>
+            </ng-container>
+
+            <ng-container matColumnDef="revenu">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Revenu pro en MAD</th>
+              <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                <div class="row ">
+                  <div class="val"> {{element.revenu}} </div>
+                  <mat-icon   [ngStyle]="{'font-size.px': 15, 'cursor': 'pointer', 'font-weight': 'bold', 
+                  'color': element.indiceRevenu == 1 ? 'green' : element.indiceRevenu == -1 ? 'red': 'blue'}"
+                > 
+                  {{element.indiceRevenu  == 1 ? 'arrow_upward' : element.indiceRevenu  == -1 ? 'arrow_downward' : 'minimize' }}
+                </mat-icon>
+                </div>
+              </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="varRevenu">
+              <th mat-header-cell *matHeaderCellDef class="small"> Var/{{selectOptionFrench()}} </th>
+              <td mat-cell *matCellDef="let element" class="small" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                <div class="row ">
+                  <div  [ngStyle]="{'color': element.indiceRevenu == 1 ? 'green' : element.indiceRevenu == -1 ? 'red' : 'blue' , 'font-size.px':element.indiceRevenu == -1 ? 22 : 14 }">
+                    {{element.indiceRevenu == 1 ? "+" : element.indiceRevenu == -1 ? "-" : ""}}
+                  </div>
+                  <div style="font-size: 12px; text-align: center;min-width: 30px;">{{ element.indiceRevenu == 0 ? 0 : element.varRevenu}}</div>
+                </div>
+              </td>
+            </ng-container>  
+          
+            <ng-container matColumnDef="turnOver">
+              <th mat-header-cell *matHeaderCellDef mat-sort-header> Chiffre d'affaire en MAD</th>
+              <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                <div class="row">
+                  <div class="val"> {{element.turnOver}} </div>
+                  <mat-icon   [ngStyle]="{'font-size.px': 15, 'cursor': 'pointer', 'font-weight': 'bold', 
+                    'color': element.indiceTurnOver == 1 ? 'green' : element.indiceTurnOver == -1 ? 'red' : 'blue'}"
+                  >
+                    {{element.indiceTurnOver == 1 ? 'arrow_upward' : element.indiceTurnOver == -1 ? 'arrow_downward' : 'minimize'}}
+                  </mat-icon>
+                </div>
+              </td>
+            </ng-container>
+          
+            <ng-container matColumnDef="varTurnOver">
+              <th mat-header-cell *matHeaderCellDef class="small"> Var/{{selectOptionFrench()}} </th>
+              <td mat-cell *matCellDef="let element" class="small" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}"> 
+              <div class="row ">
+                <div  [ngStyle]="{'color': element.indiceTurnOver == 1 ? 'green' : element.indiceTurnOver == -1 ? 'red' : 'blue' , 'font-size.px':element.indiceTurnOver == -1 ? 22 : 14 }">
+                  {{element.indiceTurnOver == 1 ? "+" : element.indiceTurnOver == -1 ? "-" : ""}}
+                </div>
+                <div style="font-size: 12px; text-align: center;min-width: 25px;">{{element.indiceTurnOver == 0 ? 0 : element.varTurnOver}}</div>
+              </div>
+            </td>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+          </table>
+          <mat-paginator [pageSize]="9" [pageSizeOptions]="[4, 9]" showFirstLastButtons></mat-paginator>
+        </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<app-email-report #email title='Rapport e-mail: Classification des concurents, par revenu' ></app-email-report>
+
+
+
+
+
+

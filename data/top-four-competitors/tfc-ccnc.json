@@ -1,0 +1,242 @@
+{
+    "barData": {
+        "7Days": {
+            "allRegion": [
+                {"bank": "230" , "nbreClient": 25000, "nbreContract": 12000},
+                {"bank": "007" ,"nbreClient": 32000, "nbreContract": 14000},
+                {"bank": "011" ,"nbreClient": 29000, "nbreContract": 16000},
+                {"bank": "350" ,"nbreClient": 35000, "nbreContract": 13000},
+                {"bank": "022" ,"nbreClient": 19000, "nbreContract": 15000}
+            
+            ],
+            "duration":[
+                {"bank": "013" ,"nbreClient": 16000, "nbreContract": 14000},
+                {"bank": "360" ,"nbreClient": 12000, "nbreContract": 14000},
+                {"bank": "362" ,"nbreClient": 62000, "nbreContract": 28000},
+                {"bank": "011" ,"nbreClient": 95000, "nbreContract": 72000},
+                {"bank": "350" ,"nbreClient": 30000, "nbreContract": 32000}
+            ],
+            "score":[
+                {"bank": "050" ,"nbreClient": 45000, "nbreContract": 15000},
+                {"bank": "013" ,"nbreClient": 12000, "nbreContract": 12000},
+                {"bank": "360" ,"nbreClient": 82000, "nbreContract": 36000},
+                {"bank": "362" ,"nbreClient": 19000, "nbreContract": 9000},
+                {"bank": "367" ,"nbreClient": 52000, "nbreContract": 42000}
+            
+            ],
+            "region":[
+                {"bank": "366" ,"nbreClient": 62000, "nbreContract": 42000},
+                {"bank": "045" ,"nbreClient": 54000, "nbreContract": 19000},
+                {"bank": "007" ,"nbreClient": 42000, "nbreContract": 26000},
+                {"bank": "011" ,"nbreClient": 46000, "nbreContract": 42000},
+                {"bank": "350" ,"nbreClient": 135000, "nbreContract": 42000}
+            ],
+            "allCity": [
+                {"bank": "230" , "nbreClient": 52000, "nbreContract": 21000},
+                {"bank": "007" ,"nbreClient": 71000, "nbreContract": 49000},
+                {"bank": "011" ,"nbreClient": 84000, "nbreContract": 51000},
+                {"bank": "350" ,"nbreClient": 36000, "nbreContract": 16400},
+                {"bank": "022" ,"nbreClient": 18000, "nbreContract": 12000}
+            
+            ],
+            "city": [
+                {"bank": "366" ,"nbreClient": 35000, "nbreContract": 31000},
+                {"bank": "045" ,"nbreClient": 32000, "nbreContract": 14000},
+                {"bank": "007" ,"nbreClient": 15000, "nbreContract": 42000},
+                {"bank": "011" ,"nbreClient": 17000, "nbreContract": 7500},
+                {"bank": "350" ,"nbreClient": 26400, "nbreContract": 5250}
+            ]
+        },
+        "month": {
+            "allRegion": [
+                {"bank": "230" , "nbreClient": 10500200, "nbreContract": 6420120},
+                {"bank": "007" ,"nbreClient": 12458634, "nbreContract": 7523694},
+                {"bank": "011" ,"nbreClient": 9574187, "nbreContract": 4259781},
+                {"bank": "350" ,"nbreClient": 4579381, "nbreContract": 2659874},
+                {"bank": "022" ,"nbreClient": 7845698, "nbreContract": 3847561}
+            
+            ],
+            "duration":[
+                {"bank": "013" ,"nbreClient": 9541, "nbreContract": 2016},
+                {"bank": "360" ,"nbreClient": 7025, "nbreContract": 3654},
+                {"bank": "362" ,"nbreClient": 7512, "nbreContract": 2640},
+                {"bank": "011" ,"nbreClient": 6542, "nbreContract": 3610},
+                {"bank": "350" ,"nbreClient": 5246, "nbreContract": 2540}
+            ],
+            "score":[
+                {"bank": "050" ,"nbreClient": 78200, "nbreContract": 26480},
+                {"bank": "013" ,"nbreClient": 120000, "nbreContract": 40000},
+                {"bank": "360" ,"nbreClient": 82000, "nbreContract": 36200},
+                {"bank": "362" ,"nbreClient": 76000, "nbreContract": 34000},
+                {"bank": "367" ,"nbreClient": 65420, "nbreContract": 36544}
+            
+            ],
+            "region":[
+                {"bank": "366" ,"nbreClient": 7500, "nbreContract": 4580},
+                {"bank": "045" ,"nbreClient": 6900, "nbreContract": 3641},
+                {"bank": "007" ,"nbreClient": 12000, "nbreContract": 5421},
+                {"bank": "011" ,"nbreClient": 9000, "nbreContract": 3215},
+                {"bank": "350" ,"nbreClient": 13000, "nbreContract": 4821}
+            ],
+            "allCity": [
+                {"bank": "230" , "nbreClient": 2000, "nbreContract": 6120},
+                {"bank": "007" ,"nbreClient": 1000, "nbreContract": 500},
+                {"bank": "011" ,"nbreClient": 900, "nbreContract": 350},
+                {"bank": "350" ,"nbreClient": 1000, "nbreContract": 514},
+                {"bank": "022" ,"nbreClient": 548, "nbreContract": 165}
+            
+            ],
+            "city": [
+                {"bank": "366" ,"nbreClient": 500, "nbreContract": 250},
+                {"bank": "045" ,"nbreClient": 900, "nbreContract": 260},
+                {"bank": "007" ,"nbreClient": 500, "nbreContract": 150},
+                {"bank": "011" ,"nbreClient": 600, "nbreContract": 260},
+                {"bank": "350" ,"nbreClient": 800, "nbreContract": 156}
+            ]
+        }  
+    },
+    "dataTable": {
+        "7Days": {
+            "allRegion": [
+                {"position": 1, "concurrents": "013", "nbreclients": 6000000, "tolnclients": 331, "nbrecontracts": 2700000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 8500000, "tolnclients": 290, "nbrecontracts": 2900000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 5000000, "tolnclients": 268, "nbrecontracts": 3200000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 4900000, "tolnclients": 209, "nbrecontracts": 2800000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 4600000, "tolnclients": 165, "nbrecontracts": 2500000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 4300000, "tolnclients": 157, "nbrecontracts": 2300000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 4100000, "tolnclients": 130, "nbrecontracts": 2100000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 3600000, "tolnclients": 121, "nbrecontracts": 2000000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 3400000, "tolnclients": 94, "nbrecontracts": 1650000, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            
+            ],
+            "duration":[
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            ],
+            "score":[
+                {"position": 1, "concurrents": "360", "nbreclients": 90000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 75000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 20000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 59000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 36000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 93000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 21000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 84000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            
+            ],
+            "region":[
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            ],
+            "allCity": [
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            
+            ],
+            "city": [
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            ]
+        },
+        "month": {
+            "allRegion": [
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            
+            ],
+            "duration":[
+                {"position": 1, "concurrents": "013", "nbreclients": 5000, "tolnclients": 331, "nbrecontracts": 2700, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 8500, "tolnclients": 290, "nbrecontracts": 2900, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 5000, "tolnclients": 268, "nbrecontracts": 3200, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            ],
+            "score":[
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            
+            ],
+            "region":[
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 2800000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 2300000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 4100000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            ],
+            "allCity": [
+                {"position": 1, "concurrents": "013", "nbreclients": 60000, "tolnclients": 331, "nbrecontracts": 27000, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 85000, "tolnclients": 290, "nbrecontracts": 29000, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 50000, "tolnclients": 268, "nbrecontracts": 32000, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 49000, "tolnclients": 209, "nbrecontracts": 28000, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 46000, "tolnclients": 165, "nbrecontracts": 25000, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 43000, "tolnclients": 157, "nbrecontracts": 23000, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 41000, "tolnclients": 130, "nbrecontracts": 21000, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 36000, "tolnclients": 121, "nbrecontracts": 20000, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 34000, "tolnclients": 94, "nbrecontracts": 16500, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            
+            ],
+            "city": [
+                {"position": 1, "concurrents": "013", "nbreclients": 3000, "tolnclients": 331, "nbrecontracts": 3700, "tolncontracts": 92,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 2, "concurrents": "360", "nbreclients": 3500, "tolnclients": 290, "nbrecontracts": 2900, "tolncontracts": 67,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 3, "concurrents": "362", "nbreclients": 4000, "tolnclients": 268, "nbrecontracts": 5200, "tolncontracts": 51,"indiceclients": -1,  "indicecontracts":1},
+                {"position": 4, "concurrents": "011", "nbreclients": 5900, "tolnclients": 209, "nbrecontracts": 2800, "tolncontracts": 48,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 5, "concurrents": "350", "nbreclients": 9600, "tolnclients": 165, "nbrecontracts": 6500, "tolncontracts": 46,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 6, "concurrents": "367", "nbreclients": 4300, "tolnclients": 157, "nbrecontracts": 5800, "tolncontracts": 900,"indiceclients": 1,  "indicecontracts":-1},
+                {"position": 7, "concurrents": "007", "nbreclients": 6100, "tolnclients": 130, "nbrecontracts": 2600, "tolncontracts": 278,"indiceclients": 1,  "indicecontracts":0},
+                {"position": 8, "concurrents": "013", "nbreclients": 8600, "tolnclients": 121, "nbrecontracts": 6900, "tolncontracts": 98,"indiceclients": 0,  "indicecontracts":-1},
+                {"position": 9, "concurrents": "366", "nbreclients": 2400, "tolnclients": 94, "nbrecontracts": 3650, "tolncontracts": 400,"indiceclients": 1,  "indicecontracts":-1}
+            ]
+        }  
+    }
+}

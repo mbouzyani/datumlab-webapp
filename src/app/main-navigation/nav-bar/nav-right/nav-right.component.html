@@ -1,0 +1,75 @@
+<ul class="navbar-nav ml-auto">
+  <li>
+    <div class="dropdown" ngbDropdown placement="auto">
+      <a ngbDropdownToggle href="javascript:" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+      <div ngbDropdownMenu class="dropdown-menu dropdown-menu-right notification">
+        <div class="noti-head">
+          <h6 class="d-inline-block m-b-0">Notifications</h6>
+          <div class="float-right">
+            <!-- <a href="javascript:" class="m-r-10">mark as read</a> -->
+            <a href="javascript:">tout effacer</a>
+          </div>
+        </div>
+        <ul class="noti-body">
+          <li class="n-title">
+            <p class="m-b-0">Nouveau</p>
+          </li>
+          <li class="notification">
+            <div class="media">
+              <img class="img-radius" src="assets/logo/icon_datumlab_dark.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <p><strong>Datum Lab</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>10 min</span></p>
+                <p>Nouveau Rapport Peut Vous Interessez</p>
+              </div>
+            </div>
+          </li>
+          <li class="n-title">
+            <p class="m-b-0">Plus tôt</p>
+          </li>
+          <li class="notification">
+            <div class="media">
+              <img class="img-radius" src="assets/logo/icon_datumlab_dark.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <p><strong>Datum Lab</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>1 heurs</span></p>
+                <p>3 Jours Avant le Payment de votre Abonnement </p>
+              </div>
+            </div>
+          </li>
+          <li class="notification">
+            <div class="media">
+              <img class="img-radius" src="assets/logo/icon_datumlab_dark.png" alt="Generic placeholder image">
+              <div class="media-body">
+                <p><strong>Datum Lab</strong><span class="n-time text-muted"><i class="icon feather icon-clock m-r-10"></i>2 heurs</span></p>
+                <p>Ahmed, Demande de partager Avec lui la liste des clients dont leurs crédit arrive à terme  </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+        <div class="noti-footer">
+          <a href="javascript:">Afficher tout</a>
+        </div>
+      </div>
+    </div>
+  </li>
+  <li>
+    <div class="dropdown drp-user" ngbDropdown placement="auto">
+      <a href="javascript:" ngbDropdownToggle data-toggle="dropdown">
+        <i class="icon feather icon-user"></i>
+      </a>
+      <div class="dropdown-menu dropdown-menu-right profile-notification" ngbDropdownMenu>
+        <div class="pro-head">
+          <img src="assets/logo/logoMokauInvest.jpg" class="img-radius" alt="User-Profile-Image">
+          <span>User Admin</span>
+          <a href="javascript:" class="dud-logout" title="Déconnexion">
+            <i class="feather icon-log-out" (click)="logOut();"></i>
+          </a>
+        </div>
+        <ul class="pro-body">
+          <li><a href="javascript:" class="dropdown-item"><i class="feather icon-user"></i> Profil</a></li>
+          <li><a href="javascript:" class="dropdown-item"><i class="feather icon-pie-chart"></i>Nouveau Rapport </a></li>
+          <li><a href="javascript:" class="dropdown-item"><i class="feather icon-lock"></i> Écran Verrouillé</a></li>
+        </ul>
+      </div>
+    </div>
+  </li>
+</ul>

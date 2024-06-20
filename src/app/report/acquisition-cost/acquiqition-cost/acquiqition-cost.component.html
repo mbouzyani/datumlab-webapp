@@ -1,0 +1,67 @@
+
+<div class="container-report" *ngIf="!isSummarize">
+
+    <div class="row btns-row">
+      <div class="row main-btns-select">
+        <div class="select-container-112">
+          <mat-form-field >
+            <mat-label>CAC par</mat-label>
+            <mat-select [(value)]="selectedDuration">
+              <mat-option value="month" (click)="requestData();">Mois</mat-option>
+              <mat-option value="trimester" (click)="requestData();">Trimestre</mat-option>
+              <mat-option value="year" (click)="requestData();">Année</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="select-container-150">
+          <mat-form-field >
+            <mat-label>Type de crédit</mat-label>
+            <mat-select [(value)]="selectedLoanType">
+              <mat-option value="immo" (click)="requestData();">Immobiliers</mat-option>
+              <mat-option value="conso" (click)="requestData();">Consommation</mat-option>
+              <mat-option value="auto" (click)="requestData();">Automobile</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="select-container-150">
+          <mat-form-field >
+            <mat-label>Montant par Dhs</mat-label>
+            <mat-select [(value)]="selectedVarAmount">
+              <mat-option *ngFor="let item of selectedLoanType == 'immo' ?  varAmountImmo : 
+              selectedLoanType == 'conso' ?  varAmountConso : varAmountAuto; index as i" value="{{'val'+i}}" (click)="requestData();"
+              >{{item}}
+            </mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btn-export">
+          <button mat-raised-button color="Basic" 
+                style="display: flex; align-items: center;" 
+                (click)="email.showPopupEmail()">
+            <mat-icon style="font-size: 20px;">share</mat-icon>
+            Partager
+          </button>
+        </div>
+        <div class="btn-export">
+          <button mat-raised-button color="primary" style="display: flex; align-items: center;">
+            <mat-icon style="font-size: 20px;">save_alt</mat-icon>
+             PDF
+          </button>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="main-content1 row"  *ngIf="!isSummarize" >
+  <div id="container-cac-1" class="height_68vh"></div>
+  <div id="container-cac-2"></div>
+</div>
+
+<div class="main-content1 row" *ngIf="isSummarize">
+  <div id="container-cac-1" class="height_100"></div>
+</div>
+
+
+
+<app-email-report #email title="Rapport e-mail: Coût d'acquisition Client" ></app-email-report>

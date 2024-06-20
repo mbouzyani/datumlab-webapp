@@ -1,0 +1,195 @@
+.title-dashboard-item {
+    width:100%; 
+    padding: 9px 0px 20px 0px; 
+    text-align:center;
+    color: #333333;
+    font-size: 18px;
+    fill: #333333;
+    font-family: serif;
+    letter-spacing: normal;
+
+}
+.container-dashboard-item {
+    border-color: #b9babd;
+    border-width: 3px;
+}
+.gloabe-page {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+app-loan-coming-to-term, 
+app-map, app-financing-capacity, 
+app-cities, app-tfc-cctcmap {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.globe-container {
+    flex: 1;
+    height: 70vh;
+    min-height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+
+
+.leftSide-map {
+    flex: 1;
+    min-width: 386px;
+    // background-color: green;
+}
+
+.rightSide-map {
+    flex: 1.3;
+    // background-color: blue;
+    min-width: 329px;
+}
+
+.withBoxShadow {
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #1211117d;
+}
+
+.page-wrapper{
+    display: flex;
+    min-height: 87vh;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.no-wrap {
+    flex-wrap: nowrap !important;
+}
+
+.center-v-h {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+}
+
+.select_title {
+    font-size: 15px;
+    color: #4680ff;
+}
+
+.mat-select-panel {
+    // background: rgba(255, 0, 0, 0.5);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.select-container-112 {
+    width: 112px;
+    margin-right: 13px;
+}
+
+.select-container-150 {
+    width: 150px;
+    margin-right: 13px;
+}
+
+.select-container-224 {
+    width: 224px;
+    margin-right: 13px;
+}
+
+.select-container-300 {
+    width: 300px;
+    margin-right: 13px;
+}
+
+.mat-form-field {
+    width: 100%;
+    font-size: 13px;
+    margin-left: 20px;
+}
+
+.mat-primary .mat-option.mat-selected:not(.mat-option-disabled) {
+    color: #4680ff;
+    // width: 110px;
+    font-size: 12px;
+}
+
+
+.mat-primary .mat-pseudo-checkbox-checked, .mat-primary .mat-pseudo-checkbox-indeterminate {
+    background: #4680ff;
+    font-size: 12px;
+}
+
+.mat-select-arrow {
+    // color:#090f33;
+}
+
+
+.mat-select-panel:not([class*=mat-elevation-z]){
+    // min-width: calc(100% + 34px) !important;
+}
+
+.main-btns-select{
+    flex: 1;
+    margin-left: -20px;
+}
+
+.btn-export {
+    height: 40px !important;
+    margin-left: 8px;
+}
+.btn-share {
+    height: 40px !important;
+}
+
+.btns-row {
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.mat-option {
+    font-size: 12px !important;
+}
+
+.mat-autocomplete-panel {
+    min-width: 145px !important;
+
+}
+
+.mat-option.mat-selected {
+    
+}
+  
+.menu-btn {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-label {
+    color: #4680ff
+}

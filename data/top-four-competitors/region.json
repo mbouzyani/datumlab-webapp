@@ -1,0 +1,174 @@
+{
+    "AllRegion": {
+        "nbrClient":{
+            "CS": {"bank": "230" , "value": 20000},
+            "TTALH": {"bank": "007" ,"value": 12000},
+            "RSK": {"bank": "011" ,"value": 9000},
+            "FM": {"bank": "350" ,"value": 13000},
+            "BMK": {"bank": "022" ,"value": 9500},
+            "MS": {"bank": "050" ,"value": 15000},
+            "OR": {"bank": "013" ,"value": 12000},
+            "SM": {"bank": "360" ,"value": 8200},
+            "DT": {"bank": "362" ,"value": 7600},
+            "GON": {"bank": "367" ,"value": 6100},
+            "LSEH": {"bank": "366" ,"value": 7500},
+            "DOED": {"bank": "045" ,"value": 6900}
+        },
+        "loanType":{
+            "CS": {"bank": "011" ,"value": 11000},
+            "TTALH": {"bank": "050" ,"value": 8000},
+            "RSK": {"bank": "013" ,"value": 6100},
+            "FM": {"bank": "366" ,"value": 5100},
+            "BMK": {"bank": "007" ,"value": 5000},
+            "MS": {"bank": "230" ,"value": 4000},
+            "OR": {"bank": "350" ,"value": 3900},
+            "SM": {"bank": "011","value": 3600},
+            "DT": {"bank": "022" ,"value": 3300},
+            "GON": {"bank": "367","value": 3100},
+            "LSEH": {"bank": "045" ,"value": 3500},
+            "DOED": {"bank": "362" ,"value": 3400}
+        },
+        "amount":{
+            "CS": {"bank": "362", "value": 8000},
+            "TTALH": {"bank": "013", "value": 6000},
+            "RSK": {"bank": "007", "value": 4500},
+            "FM": {"bank": "022","value": 4000},
+            "BMK": {"bank": "362", "value": 4500},
+            "MS": {"bank": "022", "value": 3400},
+            "OR": {"bank": "350", "value": 3059},
+            "SM": {"bank": "011","value": 25169},
+            "DT": {"bank": "045", "value": 2328},
+            "GON": {"bank": "045", "value": 2100},
+            "LSEH": {"bank": "230", "value": 1900},
+            "DOED": {"bank": "367","value": 1600}
+        }
+    },
+
+    "region": {
+        "CS":{
+            "nbrClient": {"bank1": "013" , "value1": 2000000, "bank2": "007" ,"value2": 1200000, "bank3": "011" ,"value3": 900000, "bank4": "350" ,"value4": 1300000},
+            "loanType":{"bank1": "011" ,"value1": 1100000, "bank2": "050" ,"value2": 800000, "bank3": "013" ,"value3": 610000, "bank4": "366" ,"value4": 510000},
+            "amount": {"bank1": "362", "value1": 800000, "bank2": "013", "value2": 600000, "bank3": "007", "value3": 450000, "bank4": "022","value4": 400000}
+        },
+        "TTALH":{
+            "nbrClient": {"bank1": "230" , "value1": 200000, "bank2": "007" ,"value2": 120000, "bank3": "011" ,"value3": 90000, "bank4": "350" ,"value4": 130000},
+            "loanType":{"bank1": "011" ,"value1": 110000, "bank2": "050" ,"value2": 80000, "bank3": "013" ,"value3": 61000, "bank4": "366" ,"value4": 51000},
+            "amount": {"bank1": "362", "value1": 80000, "bank2": "013", "value2": 60000, "bank3": "007", "value3": 45000, "bank4": "022","value4": 40000}
+        },
+        "RSK":{
+            "nbrClient": {"bank1": "230" , "value1": 20000, "bank2": "007" ,"value2": 12000, "bank3": "011" ,"value3": 9000, "bank4": "350" ,"value4": 13000},
+            "loanType":{"bank1": "011" ,"value1": 11000, "bank2": "050" ,"value2": 8000, "bank3": "013" ,"value3": 6100, "bank4": "366" ,"value4": 5100},
+            "amount": {"bank1": "362", "value1": 8000, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "FM":{
+            "nbrClient": {"bank1": "230" , "value1": 2000, "bank2": "007" ,"value2": 1200, "bank3": "011" ,"value3": 900, "bank4": "350" ,"value4": 1300},
+            "loanType":{"bank1": "011" ,"value1": 1100, "bank2": "050" ,"value2": 800, "bank3": "013" ,"value3": 610, "bank4": "366" ,"value4": 510},
+            "amount": {"bank1": "362", "value1": 8000, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "BMK":{
+            "nbrClient": {"bank1": "230" , "value1": 30000, "bank2": "007" ,"value2": 22000, "bank3": "011" ,"value3": 10000, "bank4": "350" ,"value4": 14000},
+            "loanType":{"bank1": "011" ,"value1": 12000, "bank2": "050" ,"value2": 9000, "bank3": "013" ,"value3": 7100, "bank4": "366" ,"value4": 6100},
+            "amount": {"bank1": "362", "value1": 9000, "bank2": "013", "value2": 8000, "bank3": "007", "value3": 5500, "bank4": "022","value4": 5000}
+        },
+        "MS":{
+            "nbrClient": {"bank1": "230" , "value1": 40000, "bank2": "007" ,"value2": 32000, "bank3": "011" ,"value3": 11000, "bank4": "350" ,"value4": 15000},
+            "loanType":{"bank1": "011" ,"value1": 13000, "bank2": "050" ,"value2": 10000, "bank3": "013" ,"value3": 8100, "bank4": "366" ,"value4": 7100},
+            "amount": {"bank1": "362", "value1": 8000, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "OR":{
+            "nbrClient": {"bank1": "230" , "value1": 40000, "bank2": "007" ,"value2": 14000, "bank3": "011" ,"value3": 11000, "bank4": "350" ,"value4": 15000},
+            "loanType":{"bank1": "011" ,"value1": 11000, "bank2": "050" ,"value2": 8000, "bank3": "013" ,"value3": 6100, "bank4": "366" ,"value4": 5100},
+            "amount": {"bank1": "362", "value1": 10000, "bank2": "013", "value2": 8000, "bank3": "007", "value3": 6500, "bank4": "022","value4": 6000}
+        },
+        "SM":{
+            "nbrClient": {"bank1": "230" , "value1": 50000, "bank2": "007" ,"value2": 15000, "bank3": "011" ,"value3": 12000, "bank4": "350" ,"value4": 16000},
+            "loanType":{"bank1": "011" ,"value1": 14000, "bank2": "050" ,"value2": 14000, "bank3": "013" ,"value3": 9100, "bank4": "366" ,"value4": 8100},
+            "amount": {"bank1": "362", "value1": 11000, "bank2": "013", "value2": 9000, "bank3": "007", "value3": 7500, "bank4": "022","value4": 7000}
+        },
+        "DT":{
+            "nbrClient": {"bank1": "230" , "value1": 60000, "bank2": "007" ,"value2": 52000, "bank3": "011" ,"value3": 13000, "bank4": "350" ,"value4": 17000},
+            "loanType":{"bank1": "011" ,"value1": 15000, "bank2": "050" ,"value2": 12000, "bank3": "013" ,"value3": 10100, "bank4": "366" ,"value4": 9100},
+            "amount": {"bank1": "362", "value1": 12000, "bank2": "013", "value2": 10000, "bank3": "007", "value3": 9500, "bank4": "022","value4": 8000}
+        },
+        "GON":{
+            "nbrClient": {"bank1": "230" , "value1": 200, "bank2": "007" ,"value2": 120, "bank3": "011" ,"value3": 900, "bank4": "350" ,"value4": 1300},
+            "loanType":{"bank1": "011" ,"value1": 1100, "bank2": "050" ,"value2": 800, "bank3": "013" ,"value3": 610, "bank4": "366" ,"value4": 510},
+            "amount": {"bank1": "362", "value1": 800, "bank2": "013", "value2": 600, "bank3": "007", "value3": 450, "bank4": "022","value4": 400}
+        },
+        "LSEH":{
+            "nbrClient": {"bank1": "230" , "value1": 2000, "bank2": "007" ,"value2": 1200, "bank3": "011" ,"value3": 900, "bank4": "350" ,"value4": 1300},
+            "loanType":{"bank1": "011" ,"value1": 1100, "bank2": "050" ,"value2": 800, "bank3": "013" ,"value3": 610, "bank4": "366" ,"value4": 510},
+            "amount": {"bank1": "362", "value1": 800, "bank2": "013", "value2": 600, "bank3": "007", "value3": 450, "bank4": "022","value4": 400}
+        },
+        "DOED":{
+            "nbrClient": {"bank1": "230" , "value1": 200, "bank2": "007" ,"value2": 120, "bank3": "011" ,"value3": 100, "bank4": "350" ,"value4": 130},
+            "loanType":{"bank1": "011" ,"value1": 110, "bank2": "050" ,"value2": 800, "bank3": "013" ,"value3": 610, "bank4": "366" ,"value4": 510},
+            "amount": {"bank1": "362", "value1": 800, "bank2": "013", "value2": 600, "bank3": "007", "value3": 450, "bank4": "022","value4": 400}
+        }
+        
+    },
+    "city": {
+        "Casablanca":{
+            "nbrClient": {"bank1": "013" , "value1": 2000, "bank2": "007" ,"value2": 1200, "bank3": "011" ,"value3": 900, "bank4": "350" ,"value4": 1300},
+            "loanType":{"bank1": "011" ,"value1": 11000, "bank2": "050" ,"value2": 8000, "bank3": "013" ,"value3": 6100, "bank4": "366" ,"value4": 5100},
+            "amount": {"bank1": "362", "value1": 800, "bank2": "013", "value2": 600, "bank3": "007", "value3": 450, "bank4": "022","value4": 400}
+        },
+        "Mohammédia":{
+            "nbrClient": {"bank1": "230" , "value1": 2000, "bank2": "007" ,"value2": 1200, "bank3": "011" ,"value3": 900, "bank4": "350" ,"value4": 1300},
+            "loanType":{"bank1": "011" ,"value1": 1100, "bank2": "050" ,"value2": 800, "bank3": "013" ,"value3": 610, "bank4": "366" ,"value4": 510},
+            "amount": {"bank1": "362", "value1": 8000, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "El Jadida":{
+            "nbrClient": {"bank1": "230" , "value1": 2000, "bank2": "007" ,"value2": 1200, "bank3": "011" ,"value3": 900, "bank4": "350" ,"value4": 1300},
+            "loanType":{"bank1": "011" ,"value1": 1100, "bank2": "050" ,"value2": 800, "bank3": "013" ,"value3": 610, "bank4": "366" ,"value4": 510},
+            "amount": {"bank1": "362", "value1": 800, "bank2": "013", "value2": 600, "bank3": "007", "value3": 450, "bank4": "022","value4": 400}
+        },
+        "Nouaceur":{
+            "nbrClient": {"bank1": "230" , "value1": 2000, "bank2": "007" ,"value2": 1200, "bank3": "011" ,"value3": 900, "bank4": "350" ,"value4": 1300},
+            "loanType":{"bank1": "011" ,"value1": 1100, "bank2": "050" ,"value2": 800, "bank3": "013" ,"value3": 610, "bank4": "366" ,"value4": 510},
+            "amount": {"bank1": "362", "value1": 800, "bank2": "013", "value2": 600, "bank3": "007", "value3": 450, "bank4": "022","value4": 400}
+        },
+        "Médiouna":{
+            "nbrClient": {"bank1": "230" , "value1": 4000, "bank2": "007" ,"value2": 3200, "bank3": "011" ,"value3": 1100, "bank4": "350" ,"value4": 1500},
+            "loanType":{"bank1": "011" ,"value1": 13000, "bank2": "050" ,"value2": 10000, "bank3": "013" ,"value3": 2100, "bank4": "366" ,"value4": 5100},
+            "amount": {"bank1": "362", "value1": 8000, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "Rabat":{
+            "nbrClient": {"bank1": "230" , "value1": 20600, "bank2": "007" ,"value2": 12600, "bank3": "011" ,"value3": 9500, "bank4": "350" ,"value4": 13900},
+            "loanType":{"bank1": "011" ,"value1": 12000, "bank2": "050" ,"value2": 11000, "bank3": "013" ,"value3": 6600, "bank4": "366" ,"value4": 5100},
+            "amount": {"bank1": "362", "value1": 8000, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "Benslimane":{
+            "nbrClient": {"bank1": "230" , "value1": 40000, "bank2": "007" ,"value2": 13000, "bank3": "011" ,"value3": 14000, "bank4": "350" ,"value4": 16000},
+            "loanType":{"bank1": "011" ,"value1": 15000, "bank2": "050" ,"value2": 10000, "bank3": "013" ,"value3": 6600, "bank4": "366" ,"value4": 5900},
+            "amount": {"bank1": "362", "value1": 8500, "bank2": "013", "value2": 6500, "bank3": "007", "value3": 4900, "bank4": "022","value4": 5000}
+        },
+        "Berrechid":{
+            "nbrClient": {"bank1": "230" , "value1": 20000, "bank2": "007" ,"value2": 12000, "bank3": "011" ,"value3": 9000, "bank4": "350" ,"value4": 13000},
+            "loanType":{"bank1": "011" ,"value1": 11550, "bank2": "050" ,"value2": 8560, "bank3": "013" ,"value3": 6480, "bank4": "366" ,"value4": 5760},
+            "amount": {"bank1": "362", "value1": 8000, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "Settat":{
+            "nbrClient": {"bank1": "230" , "value1": 29500, "bank2": "007" ,"value2": 12490, "bank3": "011" ,"value3": 9820, "bank4": "350" ,"value4": 13930},
+            "loanType":{"bank1": "011" ,"value1": 11000, "bank2": "050" ,"value2": 8000, "bank3": "013" ,"value3": 6100, "bank4": "366" ,"value4": 5100},
+            "amount": {"bank1": "362", "value1": 8190, "bank2": "013", "value2": 6820, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "Sidi Bennour":{
+            "nbrClient": {"bank1": "230" , "value1": 23400, "bank2": "007" ,"value2": 19400, "bank3": "011" ,"value3": 9000, "bank4": "350" ,"value4": 13000},
+            "loanType":{"bank1": "011" ,"value1": 11000, "bank2": "050" ,"value2": 8760, "bank3": "013" ,"value3": 6160, "bank4": "366" ,"value4": 5160},
+            "amount": {"bank1": "362", "value1": 8160, "bank2": "013", "value2": 6000, "bank3": "007", "value3": 4500, "bank4": "022","value4": 4000}
+        },
+        "Kenitra":{
+            "nbrClient": {"bank1": "230" , "value1": 28200, "bank2": "007" ,"value2": 16400, "bank3": "011" ,"value3": 9160, "bank4": "350" ,"value4": 14900},
+            "loanType":{"bank1": "011" ,"value1": 17900, "bank2": "050" ,"value2": 7900, "bank3": "013" ,"value3": 7900, "bank4": "366" ,"value4": 9300},
+            "amount": {"bank1": "362", "value1": 8120, "bank2": "013", "value2": 6160, "bank3": "007", "value3": 4160, "bank4": "022","value4": 4160}
+        },
+        "Khémisset":{
+            "nbrClient": {"bank1": "230" , "value1": 20000, "bank2": "007" ,"value2": 12000, "bank3": "011" ,"value3": 9000, "bank4": "350" ,"value4": 13000},
+            "loanType":{"bank1": "011" ,"value1": 14500, "bank2": "050" ,"value2": 8680, "bank3": "013" ,"value3": 7500, "bank4": "366" ,"value4": 5100},
+            "amount": {"bank1": "362", "value1": 8010, "bank2": "013", "value2": 6180, "bank3": "007", "value3": 4970, "bank4": "022","value4": 4860}
+        }
+        
+    }
+}
+

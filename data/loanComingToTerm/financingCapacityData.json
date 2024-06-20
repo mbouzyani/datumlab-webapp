@@ -1,0 +1,5 @@
+{
+    "35": {"nbrCustomers": 500, "nbrContrats": 1240}, 
+    "35-45": {"nbrCustomers": 1500, "nbrContrats": 2100},
+    "45": {"nbrCustomers": 2000, "nbrContrats": 2300}
+}

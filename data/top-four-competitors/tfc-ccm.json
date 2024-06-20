@@ -1,0 +1,480 @@
+{
+    "barData": {
+        "6Months": {
+            "allRegion": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "duration": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "score": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "region": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "allCity": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "city": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            }
+        },
+        "years": {
+            "allRegion": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "duration": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "score": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "region": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "allCity": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            },
+            "city": {
+                "categories": ["050", "360", "011" , "007" , "022"],
+                "turnover": [8000000, 16000000, 11000000, 12000000,14000000],
+                "revenu": [4500000, 10000000, 6200000, 7000000,9000000],
+                "average": [6000000, 16000000, 12000000, 11000000,13000000]
+            }
+        }
+    },
+    "dataTable": {
+        "6Months": {
+            "allRegion": [
+
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            
+            ],
+            "duration":[
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ],
+            "score":[
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ],
+            "region":[
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ],
+            "allCity": [
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ],
+            "city": [
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ]
+        },
+        "years": {
+            "allRegion": [
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            
+            ],
+            "duration":[
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ],
+            "score":[
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ],
+            "region":[
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ],
+            "allCity": [
+                {"position": 1, "concurrents": "013", "turnOver": 6000000, "varTurnOver": 331, "revenu": 2700000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":-1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2900000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":-1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 3200000, "varRevenu": 51,"indiceTurnOver": -1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 2800000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":-1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 2500000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":-1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 157, "revenu": 2300000, "varRevenu": 900,"indiceTurnOver": 1,  "indiceRevenu":-1},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 130, "revenu": 2100000, "varRevenu": 278,"indiceTurnOver": 1,  "indiceRevenu":0},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": 0,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 94, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": 1,  "indiceRevenu":-1}
+            
+            ],
+            "city": [
+                {"position": 1, "concurrents": "013", "turnOver": 9000000, "varTurnOver": 331, "revenu": 2900000, "varRevenu": 92,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 2, "concurrents": "360", "turnOver": 8500000, "varTurnOver": 290, "revenu": 2700000, "varRevenu": 67,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 3, "concurrents": "362", "turnOver": 5000000, "varTurnOver": 268, "revenu": 2000000, "varRevenu": 51,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 4, "concurrents": "011", "turnOver": 4900000, "varTurnOver": 209, "revenu": 1400000, "varRevenu": 48,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 5, "concurrents": "350", "turnOver": 4600000, "varTurnOver": 165, "revenu": 1200000, "varRevenu": 46,"indiceTurnOver": 1,  "indiceRevenu":1},
+                {"position": 6, "concurrents": "367", "turnOver": 4300000, "varTurnOver": 0,   "revenu": 2300000, "varRevenu": 0,"indiceTurnOver": 0,  "indiceRevenu": 0},
+                {"position": 7, "concurrents": "007", "turnOver": 4100000, "varTurnOver": 94, "revenu": 2100000, "varRevenu": 85,"indiceTurnOver": -1, "indiceRevenu":-1},
+                {"position": 8, "concurrents": "013", "turnOver": 3600000, "varTurnOver": 121, "revenu": 2000000, "varRevenu": 98,"indiceTurnOver": -1,  "indiceRevenu":-1},
+                {"position": 9, "concurrents": "366", "turnOver": 3400000, "varTurnOver": 200, "revenu": 1650000, "varRevenu": 400,"indiceTurnOver": -1,  "indiceRevenu":-1}
+            ]
+        }  
+    },
+    "areaData": {
+        "6Months": {
+            "allRegion": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "007",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "duration": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "score": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "region": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "allCity": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "city":{
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            }
+        },
+        "years": {
+            "allRegion": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "duration": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "score": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "region": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "allCity":{
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "city":{
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            }
+        }  
+    }
+}

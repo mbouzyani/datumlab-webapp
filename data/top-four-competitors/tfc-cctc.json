@@ -1,0 +1,494 @@
+{
+    "spiderData": {
+        "2Months": {
+            "allRegion": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [10000000, 10000, 110000, 130000,140000],
+                "conso": [600000, 400000, 350000, 300000,250000],
+                "auto": [4000000, 1600000, 1200000, 1100000,1300000],
+                "pretHabitat": [600000, 1600000, 1200000, 1100000,1300000]
+            },
+            "duration": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [90000, 160000, 110000, 120000,14000],
+                "conso": [45000, 100000, 62000, 70000,90000],
+                "auto": [60000, 160000, 120000, 110000,130000],
+                "pretHabitat": [60000, 160000, 120000, 110000,130000]
+            },
+            "score": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [4000, 160000, 110000, 120000,140000],
+                "conso": [45000, 10000, 62000, 70000,90000],
+                "auto": [60000, 160000, 120000, 110000,40000],
+                "pretHabitat": [60000, 160000, 120000, 40000,30000]
+            },
+            "region": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [80000, 160000, 110000, 120000,140000],
+                "conso": [45000, 100000, 62000, 70000,90000],
+                "auto": [60000, 160000, 120000, 110000,130000],
+                "pretHabitat": [60000, 160000, 120000, 110000,130000]
+            },
+            "allCity": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [90000, 180000, 130000, 150000,160000],
+                "conso": [55000, 80000, 61000, 7000,90000],
+                "auto": [70000, 160000, 170000, 120000,160000],
+                "pretHabitat": [60000, 140000, 26000, 160000,150000]
+            },
+            "city": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [16000, 180000, 180000, 180000,180000],
+                "conso": [95000, 800000, 92000, 140000,160000],
+                "auto": [190000, 110000, 180000, 170000,130000],
+                "pretHabitat": [16000, 150000, 180000, 190000,130000]
+            }
+        },
+        "other": {
+            "allRegion": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [80000, 160000, 110000, 120000,140000],
+                "conso": [45000, 100000, 62000, 70000,90000],
+                "auto": [60000, 16000, 120000, 110000,130000],
+                "pretHabitat": [60000, 160000, 120000, 110000,13000]
+            },
+            "duration": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [8000, 160000, 110000, 120000,140000],
+                "conso": [45000, 100000, 62000, 70000,90000],
+                "auto": [60000, 160000, 120000, 110000,130000],
+                "pretHabitat": [60000, 160000, 120000, 110000,130000]
+            },
+            "score": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [70000, 56000, 130000, 70000,80000],
+                "conso": [45000, 100000, 62000, 70000,9000],
+                "auto": [60000, 160000, 120000, 110000,13000],
+                "pretHabitat": [60000, 160000, 12000, 110000,13000]
+            },
+            "region": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [80000, 160000, 110000, 120000,140000],
+                "conso": [45000, 100000, 62000, 70000,9000],
+                "auto": [60000, 160000, 120000, 110000,130000],
+                "pretHabitat": [60000, 160000, 120000, 110000,130000]
+            },
+            "allCity": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [80000, 160000, 110000, 120000,140000],
+                "conso": [45000, 100000, 62000, 70000,90000],
+                "auto": [60000, 160000, 120000, 110000,130000],
+                "pretHabitat": [60000, 160000, 120000, 110000,130000]
+            },
+            "city": {
+                "categories": ["230", "360", "011" , "007" , "022"],
+                "immo": [80000, 1600, 1100, 1200,1400],
+                "conso": [450, 1000, 620, 700,900],
+                "auto": [600, 1600, 1200, 1100,1300],
+                "pretHabitat": [600, 1600, 1200, 1100,1300]
+            }
+        }
+    },
+    "dataTable": {
+        "2Months": {
+            "allRegion": [
+
+                {"position": 1, "concurrents": "007", "nbreContratImmo": 10079, "varImmo": "584", "nbreContratConso": 900000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 20079, "varImmo": "215", "nbreContratConso": 300000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 0,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 30079, "varImmo": "154", "nbreContratConso": 300000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 40079, "varImmo": "145", "nbreContratConso": 600000, "varConso": "43", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 50079, "varImmo": "877", "nbreContratConso": 900000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "43","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 60079, "varImmo": "331", "nbreContratConso":1200000, "varConso": "86", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 0,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 70079, "varImmo": "544", "nbreContratConso": 220000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "86","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 80079, "varImmo": "331", "nbreContratConso": 600000, "varConso": "86", "nbreContratAuto": 200000, "varAuto": "74","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 90079, "varImmo": "184", "nbreContratConso": 400000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1}
+            
+            ],
+            "duration":[
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 20079, "varImmo": "154", "nbreContratConso": 110000, "varConso": "74", "nbreContratAuto": 200000, "varAuto": "74","indiceImmo": 0,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 330000, "varConso": "23", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 40079, "varImmo": "158", "nbreContratConso": 220000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 440000, "varConso": "67", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 50079, "varImmo": "331", "nbreContratConso": 330000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "67","indiceImmo": 0,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 60079, "varImmo": "487", "nbreContratConso": 550000, "varConso": "67", "nbreContratAuto": 200000, "varAuto": "84","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 80079, "varImmo": "331", "nbreContratConso": 770000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 110079, "varImmo": "182", "nbreContratConso": 990000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "36","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 120079, "varImmo": "331", "nbreContratConso": 880000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "36","indiceImmo": 0,  "indiceConso":-1,  "indiceAuto":-1}
+            ],
+            "score":[
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 16079, "varImmo": "668", "nbreContratConso": 300000, "varConso": "48", "nbreContratAuto": 200000, "varAuto": "48","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 17079, "varImmo": "158", "nbreContratConso": 100000, "varConso": "123", "nbreContratAuto": 200000, "varAuto": "123","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 18079, "varImmo": "331", "nbreContratConso": 400000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 19079, "varImmo": "287", "nbreContratConso": 600000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "123","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 20079, "varImmo": "331", "nbreContratConso": 900000, "varConso": "78", "nbreContratAuto": 200000, "varAuto": "78","indiceImmo": 0,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 30079, "varImmo": "187", "nbreContratConso": 800000, "varConso": "36", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 40079, "varImmo": "331", "nbreContratConso": 400000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "86","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 50079, "varImmo": "157", "nbreContratConso": 900000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 60079, "varImmo": "331", "nbreContratConso": 700000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "84","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1}
+            
+            ],
+            "region":[
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 30079, "varImmo": "158", "nbreContratConso": 220000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 40079, "varImmo": "331", "nbreContratConso": 160000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "44","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 60079, "varImmo": "187", "nbreContratConso": 420000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 90079, "varImmo": "584", "nbreContratConso": 120000, "varConso": "44", "nbreContratAuto": 200000, "varAuto": "23","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 80079, "varImmo": "187", "nbreContratConso": 160000, "varConso": "23", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 90079, "varImmo": "158", "nbreContratConso": 190000, "varConso": "38", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 80079, "varImmo": "87", "nbreContratConso": 130000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "55","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 60079, "varImmo": "778", "nbreContratConso": 170000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 110079, "varImmo": "154", "nbreContratConso": 150000, "varConso": "55", "nbreContratAuto": 200000, "varAuto": "55","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1}
+            ],
+            "allCity": [
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 130000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "67","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 10079, "varImmo": "158", "nbreContratConso": 120000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 180000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "64","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 110000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 10079, "varImmo": "158", "nbreContratConso": 170000, "varConso": "38", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 140000, "varConso": "32", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 10079, "varImmo": "158", "nbreContratConso": 160000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "115","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 140000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 10079, "varImmo": "487", "nbreContratConso": 120000, "varConso": "85", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1}
+            ],
+            "city": [
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 20079, "varImmo": "331", "nbreContratConso": 206000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "71","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 10079, "varImmo": "288", "nbreContratConso": 203000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 60079, "varImmo": "331", "nbreContratConso": 209000, "varConso": "58", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 80079, "varImmo": "875", "nbreContratConso": 209000, "varConso": "51", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 30079, "varImmo": "248", "nbreContratConso": 202000, "varConso": "47", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 40079, "varImmo": "331", "nbreContratConso": 208000, "varConso": "72", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 70079, "varImmo": "187", "nbreContratConso": 209000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "40","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 50079, "varImmo": "257", "nbreContratConso": 208000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "48","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 100079, "varImmo": "458", "nbreContratConso": 209000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "68","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1}
+            ]
+        },
+        "other": {
+            "allRegion": [
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 100079, "varImmo": "987", "nbreContratConso": 230000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 120079, "varImmo": "248", "nbreContratConso": 660000, "varConso": "62", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 850079, "varImmo": "184", "nbreContratConso": 610000, "varConso": "41", "nbreContratAuto": 200000, "varAuto": "41","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 150079, "varImmo": "187", "nbreContratConso": 940000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 140079, "varImmo": "158", "nbreContratConso": 570000, "varConso": "28", "nbreContratAuto": 200000, "varAuto": "28","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 120079, "varImmo": "475", "nbreContratConso": 970000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 160079, "varImmo": "475", "nbreContratConso": 990000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "58","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 150079, "varImmo": "331", "nbreContratConso": 830000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "14","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 120079, "varImmo": "475", "nbreContratConso": 320000, "varConso": "14", "nbreContratAuto": 200000, "varAuto": "47","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1}
+            
+            ],
+            "duration":[
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 410079, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 40079, "varImmo": "475", "nbreContratConso": 20700, "varConso": "92", "nbreContratAuto": 6.0079, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 50079, "varImmo": "331", "nbreContratConso": 20900, "varConso": "92", "nbreContratAuto": 20900, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 70079, "varImmo": "475", "nbreContratConso": 730079, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 60079, "varImmo": "475", "nbreContratConso": 630079, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 80079, "varImmo": "475", "nbreContratConso": 26000, "varConso": "92", "nbreContratAuto": 26000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 90079, "varImmo": "331", "nbreContratConso": 20600, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 20079, "varImmo": "475", "nbreContratConso": 260079, "varConso": "92", "nbreContratAuto": 26000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 30079, "varImmo": "331", "nbreContratConso": 221000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1}
+            ],
+            "score":[
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 80079, "varImmo": "475", "nbreContratConso": 110000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 60079, "varImmo": "331", "nbreContratConso": 330000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 70079, "varImmo": "475", "nbreContratConso": 900000, "varConso": "92", "nbreContratAuto": 26000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 30079, "varImmo": "331", "nbreContratConso": 770000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 50079, "varImmo": "475", "nbreContratConso": 880000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 70079, "varImmo": "331", "nbreContratConso": 990000, "varConso": "47", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 20079, "varImmo": "475", "nbreContratConso": 330000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "47","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 70079, "varImmo": "331", "nbreContratConso": 330000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 60079, "varImmo": "475", "nbreContratConso": 990000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1}
+            
+            ],
+            "region":[
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 110079, "varImmo": "331", "nbreContratConso": 900000, "varConso": "47", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 90079, "varImmo": "475", "nbreContratConso": 400000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 120079, "varImmo": "331", "nbreContratConso": 110000, "varConso": "47", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 100079, "varImmo": "475", "nbreContratConso": 120000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 80079, "varImmo": "331", "nbreContratConso": 130000, "varConso": "47", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 40079, "varImmo": "475", "nbreContratConso": 130000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "47","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 50079, "varImmo": "331", "nbreContratConso": 160000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 80079, "varImmo": "475", "nbreContratConso": 160000, "varConso": "47", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 40079, "varImmo": "331", "nbreContratConso": 140000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1}
+            ],
+            "allCity": [
+                {"position": 1, "concurrents": "013", "nbreContratImmo": 120079, "varImmo": "331", "nbreContratConso": 760000, "varConso": "47", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 0},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 440079, "varImmo": "331", "nbreContratConso": 1200000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "47","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 880079, "varImmo": "475", "nbreContratConso": 400000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 990079, "varImmo": "331", "nbreContratConso": 600000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": -1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 940079, "varImmo": "256", "nbreContratConso": 700000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 0},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 60079, "varImmo": "331", "nbreContratConso": 900000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": -1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 70079, "varImmo": "331", "nbreContratConso": 150000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 80079, "varImmo": "256", "nbreContratConso": 120000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": -1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 90079, "varImmo": "331", "nbreContratConso": 200000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 0}
+            
+            ],
+            "city": [
+                {"position": -1, "concurrents": "013", "nbreContratImmo": 40079, "varImmo": "256", "nbreContratConso": 800000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 2, "concurrents": "360","nbreContratImmo": 60079, "varImmo": "331", "nbreContratConso": 400000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 3, "concurrents": "362", "nbreContratImmo": 40079, "varImmo": "331", "nbreContratConso": 600000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 4, "concurrents": "011", "nbreContratImmo": 90079, "varImmo": "256", "nbreContratConso": 700000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": -1,  "indiceConso":-1,  "indiceAuto": 0},
+                {"position": 5, "concurrents": "350", "nbreContratImmo": 40079, "varImmo": "331", "nbreContratConso": 500000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 6, "concurrents": "013", "nbreContratImmo": 80079, "varImmo": "331", "nbreContratConso": 500000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": -1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 8, "concurrents": "367", "nbreContratImmo": 10079, "varImmo": "331", "nbreContratConso": 900000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto":-1},
+                {"position": 9, "concurrents": "007", "nbreContratImmo": 90079, "varImmo": "331", "nbreContratConso": 500000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": -1,  "indiceConso":-1,  "indiceAuto": 1},
+                {"position": 10, "concurrents": "366", "nbreContratImmo": 80079, "varImmo": "256", "nbreContratConso": 500000, "varConso": "92", "nbreContratAuto": 200000, "varAuto": "92","indiceImmo": 1,  "indiceConso":-1,  "indiceAuto": 1}
+            ]
+        }  
+    },
+    "pieData": {
+        "2Months": {
+            "allRegion": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "007",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "duration": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "score": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "region": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "allCity": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "city":{
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            }
+        },
+        "other": {
+            "allRegion": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "duration": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "score": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "region": {
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "allCity":{
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            },
+            "city":{
+                "categories": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+                "series": [{
+                    "name": "013",
+                    "data": [502, 635, 809, 947, 1402, 3634, 5268]
+                    }, {
+                        "name": "360",
+                        "data": [106, 107, 111, 133, 221, 767, 1766]
+                    }, {
+                        "name": "011",
+                        "data": [163, 203, 276, 408, 547, 729, 628]
+                    }, {
+                        "name": "350",
+                        "data": [18, 31, 54, 156, 339, 818, 1201]
+                    }, {
+                        "name": "362",
+                        "data": [2, 2, 2, 6, 13, 30, 46]
+                    }
+                ]
+
+            }
+        }  
+    }
+}

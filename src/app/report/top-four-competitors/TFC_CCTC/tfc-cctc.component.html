@@ -1,0 +1,238 @@
+
+
+<div class="container-report" *ngIf="!isSummarize">
+  <div class="row btns-row" >
+    <div class="row main-btns-select">
+        <div class="select-container-112">
+          <mat-form-field >
+            <mat-label class="select_title">Durée</mat-label>
+            <mat-select [(value)]="selectedDuration">
+              <mat-option value="1Month" (click)="requestData();">30 derniers jours</mat-option>
+              <mat-option value="2Months" (click)="requestData();">60 derniers jours</mat-option>
+              <mat-option value="3Months" (click)="requestData();">3 derniers mois</mat-option>
+              <mat-option value="6Months" (click)="requestData();">6 derniers mois</mat-option>
+              <mat-option value="12Months" (click)="requestData();"> La dernières années</mat-option>
+    
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="select-container-112">
+          <mat-form-field>
+            <mat-label class="select_title">Score</mat-label>
+            <mat-select [formControl]="scoreForm" multiple>
+              <mat-select-trigger>
+                {{scoreForm.value ? scoreForm.value[0] : ''}}
+                <span *ngIf="scoreForm.value?.length > 1" class="example-additional-selection">
+                  (+{{scoreForm.value.length - 1}} {{scoreForm.value?.length === 2 ? 'autre' : 'autres'}})
+                </span>
+              </mat-select-trigger>
+              <mat-option 
+                *ngFor="let score of scoreList" 
+                [value]="score" 
+                [disabled]="scoreForm.value.length==1 && scoreForm.value[0]==score" 
+                (click)="scoreForm.value.length==1 && scoreForm.value[0]==score ?  '' : requestData(); "
+              >{{score}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="select-container-112">
+          <mat-form-field>
+            <mat-label class="select_title">Région</mat-label>
+            <mat-select [formControl]="regionForm" panelClass="mat-select-panel" multiple>
+              <mat-select-trigger>
+                {{regionForm.value ? regionForm.value[0] : ''}}
+                <span *ngIf="regionForm.value?.length > 1" class="example-additional-selection">
+                  (+{{regionForm.value.length - 1}} {{regionForm.value?.length === 2 ? 'autre' : 'autres'}})
+                </span>
+              </mat-select-trigger>
+              <mat-option *ngFor="let region of regionListForm" [value]="region" 
+                [disabled]="regionForm.value.length==1 && regionForm.value[0]==region" 
+                (click)="regionForm.value.length==1 && regionForm.value[0]==region ?  '' : requestData(); "
+              >{{region}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </div>
+        <div class="select-container-224">
+          <form class="example-form " style="display: flex; flex-direction: row;align-items: center;">    
+            <mat-form-field class="example-full-width">
+              <input 
+                    type="text"
+                    placeholder="Choisir une ville"
+                    aria-label="Number"
+                    matInput
+                    [formControl]="cityForm"
+                    [matAutocomplete]="auto"
+                    >
+                <mat-autocomplete #auto="matAutocomplete">
+                <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (click)="requestData();">
+                  {{option}}
+                </mat-option>
+              </mat-autocomplete>
+            </mat-form-field>
+            <mat-icon style="font-size: 15px; cursor: pointer;" (click)="clearCity();">close</mat-icon>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="btn-export">
+          <button mat-raised-button color="Basic" 
+                style="display: flex; align-items: center;" 
+                (click)="email.showPopupEmail()">
+            <mat-icon style="font-size: 20px;">share</mat-icon>
+            Partager
+          </button>
+        </div>
+    
+        <div class="btn-export">
+          <button mat-raised-button color="primary" style="display: flex; align-items: center;">
+            <mat-icon style="font-size: 20px;">save_alt</mat-icon>
+             PDF
+          </button>
+        </div>
+      </div>
+    </div>  
+  
+  
+    <div class="main-chart column">
+        <div class="main-content1 row">
+          <div class="left-chart">
+            <div id="container4"></div>
+          </div>
+          <div class="right-chart">
+            <div class="select-container-112">
+              <mat-form-field >
+                <mat-label class="select_title">Concurrents</mat-label>
+                <mat-select [(value)]="selectedBank">
+                  <mat-option *ngFor="let concurent of concurrentList" value="{{concurent}}" (click)="requestDataPie();">{{concurent}}</mat-option>
+                </mat-select>
+              </mat-form-field>
+            </div>
+            <div id="container5"  class="height_68vh"></div>   
+          </div>
+        </div>
+        <mat-divider class="matdivider-margin"></mat-divider>
+        <div class="main-content2 ">
+          <div class="data-table mat-elevation-z8">
+              <div id="comtainer2">
+                <table mat-table [dataSource]="dataSource" matSort >
+                  <ng-container matColumnDef="position">
+                    <th mat-header-cell *matHeaderCellDef> No. </th>
+                    <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}"> {{element.position}} </td>
+                  </ng-container>
+                
+                  <ng-container matColumnDef="concurrents">
+                    <th mat-header-cell *matHeaderCellDef > Concurrents </th>
+                    <td mat-cell *matCellDef="let element" style="width: 140px;" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}"> {{element.concurrents}} </td>
+                  </ng-container>
+                
+                  <ng-container matColumnDef="nbreContratImmo">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Nbre C Immo </th>
+                    <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                      <div class="row">
+                        <div class="val" style="width: 50px; text-align: center;"> {{element.nbreContratImmo}} </div>
+                        <mat-icon   [ngStyle]="{'font-size.px': 15, 'cursor': 'pointer', 'font-weight': 'bold', 
+                          'color': element.indiceImmo == 1 ? 'green' : element.indiceImmo == -1 ? 'red' : 'blue'}"
+                        >
+                          {{element.indiceImmo == 1 ? 'arrow_upward' : element.indiceImmo == -1 ? 'arrow_downward' : 'minimize'}}
+                        </mat-icon>
+                      </div>
+                    </td>
+                  </ng-container>
+                
+                  <ng-container matColumnDef="varImmo">
+                    <th mat-header-cell *matHeaderCellDef style="width: 100px;"> var/{{selectOptionFrench()}} </th>
+                    <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}"> 
+                    <div class="row ">
+                      <div  [ngStyle]="{'color': element.indiceImmo == 1 ? 'green' : element.indiceImmo == -1 ? 'red' : 'blue' , 'font-size.px':element.indiceImmo == -1 ? 22 : 14 }">
+                        {{element.indiceImmo == 1 ? "+" : element.indiceImmo == -1 ? "-" : ""}}
+                      </div>
+                      <div style="font-size: 12px; text-align: center;min-width: 25px;">{{element.indiceImmo == 0 ? 0 : element.varImmo}}</div>
+                    </div>
+                  </td>
+                  </ng-container>
+                   <ng-container matColumnDef="nbreContratConso">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Nbre de C Conso </th>
+                    <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                      <div class="row ">
+                        <div class="val" style="width: 50px; text-align: center;"> {{element.nbreContratConso}} </div>
+                        <mat-icon   [ngStyle]="{'font-size.px': 15, 'cursor': 'pointer', 'font-weight': 'bold', 
+                        'color': element.indiceConso == 1 ? 'green' : element.indiceConso == -1 ? 'red' : 'blue'}"
+                      > 
+                        {{element.indiceConso  == 1 ? 'arrow_upward' : element.indiceConso  == -1 ? 'arrow_downward' : 'minimize'}}
+                      </mat-icon>
+                      </div>
+                    </td>
+                  </ng-container>
+                
+                  <ng-container matColumnDef="varConso">
+                    <th mat-header-cell *matHeaderCellDef> var/{{selectOptionFrench()}} </th>
+                    <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                      <div class="row ">
+                        <div  [ngStyle]="{'color': element.indiceConso == 1 ? 'green' : element.indiceConso == -1 ? 'red' : 'blue' , 'font-size.px':element.indiceConso == -1 ? 22 : 14 }">
+                          {{element.indiceConso == 1 ? "+" : element.indiceConso == -1 ? "-" : ""}}
+                        </div>
+                        <div style="font-size: 12px; text-align: center;min-width: 25px;">{{ element.indiceConso == 0 ?  0 : element.varConso}}</div>
+                      </div>
+                    </td>
+                  </ng-container>
+                  'nbreContratImmo', 'varImmo', 'nbreContratConso', 'varConso', 'nbreContratAuto', 'varAuto'
+
+                  <ng-container matColumnDef="nbreContratAuto">
+                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Nbre C Auto </th>
+                    <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                      <div class="row ">
+                        <div class="val" style="width: 50px; text-align: center;"> {{element.nbreContratAuto}} </div>
+                        <mat-icon   [ngStyle]="{'font-size.px': 15, 'cursor': 'pointer', 'font-weight': 'bold', 
+                        'color': element.indiceAuto == 1 ? 'green' : element.indiceAuto == -1 ? 'red' : 'blue'}"
+                      > 
+                        {{element.indiceAuto  == 1 ? 'arrow_upward' : element.indiceAuto  == -1 ? 'arrow_downward' : 'minimize'}}
+                      </mat-icon>
+                      </div>
+                    </td>
+                  </ng-container>
+                
+                  <ng-container matColumnDef="varAuto">
+                    <th mat-header-cell *matHeaderCellDef> var/{{selectOptionFrench()}} </th>
+                    <td mat-cell *matCellDef="let element" [ngStyle]="element.position > 4 ? {} : {'background-color': '#dee2e8'}">
+                      <div class="row ">
+                        <div  [ngStyle]="{'color': element.indiceAuto == 1 ? 'green' : element.indiceAuto == -1 ? 'red' : 'blue' , 'font-size.px':element.indiceAuto == -1 ? 22 : 14 }">
+                          {{element.indiceAuto == 1 ? "+" : element.indiceAuto == -1 ? "-" : ""}}
+                        </div>
+                        <div style="font-size: 12px; text-align: center;min-width: 25px;">{{ element.indiceAuto == 0 ? 0 : element.varAuto}}</div>
+                      </div>
+                    </td>
+                  </ng-container>
+                
+                  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+                  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+                </table>
+                <mat-paginator [pageSize]="9" [pageSizeOptions]="[4, 9]" showFirstLastButtons></mat-paginator>
+
+              </div>
+          </div>     
+        </div>
+      </div>
+</div>
+
+<div  style="height: 100%;width: 100%;"  *ngIf="isSummarize">
+  <div class="select-container-112">
+    <mat-form-field style="margin-top: -20px;" >
+      <mat-label class="select_title">Concurrents</mat-label>
+      <mat-select [(value)]="selectedBank">
+        <mat-option *ngFor="let concurent of concurrentList" value="{{concurent}}" (click)="requestDataPie();">{{concurent}}</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <div id="container5"  class="height_100" *ngIf="isSummarize"></div>   
+</div>
+
+
+<app-email-report #email title='Rapport e-mail: Classification des concurents, par type des crédits' ></app-email-report>
+  
+  
+  
+  
+  
+  
+  
+  

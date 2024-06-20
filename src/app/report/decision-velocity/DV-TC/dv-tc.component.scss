@@ -1,0 +1,19 @@
+#container-dv-tc-1 {
+    flex: 1;
+    width: 100% !important;
+    min-width: 120px;
+    display: block;
+    transition: all .2s ease-out;
+}
+
+
+.height_100 {
+    height: 100%;
+    min-height: 280px;
+}
+
+.height_68vh {
+    height: 68vh;
+    min-height: 400px;
+}
+  

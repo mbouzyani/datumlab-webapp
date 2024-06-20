@@ -1,0 +1,61 @@
+<div class="container-support center-v-h" style='background-image: url("assets/Datum-logo-Bckground.png");'>
+    <div class="container-f-t" style="font-size: 18px !important;">
+        <div class="container-title">
+            <div style="display: flex; flex-direction: row; justify-content: space-between; align-items: center;">
+                <div>
+                    <h2 class="title">Contact Support</h2>
+                    <p class="sub-title">Contact support</p>
+                </div>
+                <img id="main-logo" style="height: 36px; width: auto;" src="assets/logo/logoDatumLab.png" alt="">
+            </div>
+        </div>
+
+        <div class="container-form ">
+            <div style="width: 80%;">
+                <form class="example-form " style="display: flex; flex-direction: row;align-items: center;">
+                  <mat-form-field class="example-full-width">
+                    <input 
+                        type="text"
+                        placeholder="Email"
+                        aria-label="Number"
+                        matInput
+                    >
+                  </mat-form-field>
+                </form>
+            </div>
+            <div style="width: 80%;">
+                <form class="example-form " style="display: flex; flex-direction: row;align-items: center;">
+                  <mat-form-field class="example-full-width">
+                    <input 
+                        type="text"
+                        placeholder="Sujet"
+                        aria-label="Number"
+                        matInput
+                    >
+                  </mat-form-field>
+                </form>
+            </div>
+            <div style="width: 80%;margin-top: 20px;">
+                <mat-form-field style="font-size: 18px;" >
+                    <mat-label>Déscription</mat-label>
+                    <textarea 
+                        matInput
+                        cdkTextareaAutosize
+                        #autosize="cdkTextareaAutosize"
+                        cdkAutosizeMinRows="1"
+                        cdkAutosizeMaxRows="10"
+                    >
+                    </textarea>
+                </mat-form-field>
+            </div>
+            <div style="width: 80%; padding-left: 20px">
+                <button class="button" mat-raised-button color="primary" 
+                        style="display: flex; align-items: center;"
+                        (click)="send()"
+                    >
+                    Envoyer
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

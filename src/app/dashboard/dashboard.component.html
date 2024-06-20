@@ -1,0 +1,62 @@
+<div class="container_dashbord">
+    <div fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="4px" class="stats-cards">
+        <mat-card  class="item-card">
+            <app-widget-card label="Portefeuille Clients" total="4k" percentage="30" [data]="cards" color='#07eb0d73'></app-widget-card>
+        </mat-card>
+        <mat-card  class="item-card">
+            <app-widget-card label="Requêtes sur les Clients" total="9k" percentage="20" [data]="cards"  color='#07eb0d73'></app-widget-card>
+        </mat-card>
+        <mat-card  class="item-card">
+            <app-widget-card label="Vélocité de Décision" total="6k" percentage="20" [data]="cards"  color='#07eb0d73'></app-widget-card>
+        </mat-card>
+        <mat-card  class="item-card">
+            <app-widget-card label="Vélocité de Conclusion" total="8k" percentage="30" [data]="cards"  color='#07eb0d73'></app-widget-card>
+        </mat-card>
+        <mat-card class="item-card">
+            <app-widget-card label="Coût d’Acquisition CAC" total="5k" percentage="30" [data]="cards"  color='#e74545'></app-widget-card>
+        </mat-card>
+    </div>
+    <div class="container_report">
+        <mat-card class="item_1">
+            <a href="/datumlab#/lctt/score" class="nav-link"></a>
+            <app-loan-coming-to-term [isSummarize]="true"></app-loan-coming-to-term>
+        </mat-card>
+        <mat-card class="item_2">
+            <a href="/datumlab#/lctt/map" class="nav-link"></a>
+            <div class="title-dashboard-item">Crédit Arrivent à Échéance par Région</div>
+            <app-map [isSummarize]="true"></app-map>
+        </mat-card>
+        <mat-card class="item_3">
+            <a href="/datumlab#/cac" class="nav-link"></a>
+            <app-acquiqition-cost [isSummarize]="true"></app-acquiqition-cost>
+        </mat-card>
+    </div>
+    <div class="container_report second-line">
+        <mat-card  class="item_4">
+            <a href="/datumlab#/top4/amount" class="nav-link"></a>
+            <div class="title-dashboard-item">Classification des Concurents</div>
+            <app-tfc-ccm [isSummarize]="true"></app-tfc-ccm>
+        </mat-card>
+        <div class="second-line-second-item">
+            <mat-card class="item_5">
+                <a href="/datumlab#/top4/loantype" class="nav-link"></a>
+                <div style="min-width: 340px;max-width: 35vw; height: 100%;margin: 0 auto;">
+                    <app-tfc-cctc [isSummarize]="true" ></app-tfc-cctc>
+                </div>
+            </mat-card>
+            <mat-card class="item_6 container-dashboard-item second-line-last-item" >
+                <a href="/datumlab#/dv-da/loantype" class="nav-link"></a>
+                <div style="min-width: 340px;max-width: 35vw;height: 100%;margin: 0 auto;">
+                    <app-dv-tc [isSummarize]="true" ></app-dv-tc>
+                </div>
+            </mat-card>
+            
+        </div>
+    </div>
+    <div class="container_report last-line">
+        <mat-card class="item_7">
+            <a href="/datumlab#/dv-cc/nbclient" class="nav-link"></a>
+            <app-dv-nc [isSummarize]="true"></app-dv-nc>
+        </mat-card>
+    </div>
+</div>

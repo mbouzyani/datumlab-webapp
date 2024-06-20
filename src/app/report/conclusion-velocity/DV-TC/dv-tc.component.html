@@ -1,0 +1,111 @@
+<div class="row btns-row">
+  <div class="row main-btns-select">
+    <div class="select-container-112">
+      <mat-form-field >
+        <mat-label class="select_title">Banque</mat-label>
+        <mat-select [(value)]="selectedBank">
+          <mat-option value="BMCE" (click)="requestData();">BMCE</mat-option>
+          <mat-option value="CIH" (click)="requestData();">CIH</mat-option>
+          <mat-option value="ATTIJARIWAFA" (click)="requestData();">ATTIJARIWAFA</mat-option>
+          <mat-option value="BMCI" (click)="requestData();">BMCI</mat-option>
+          <mat-option value="AL BARID BANK" (click)="requestData();">AL BARID BANK</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="select-container-112">
+      <mat-form-field >
+        <mat-label>Durée</mat-label>
+        <mat-select [(value)]="selectedDuration">
+          <mat-option value="1Month" (click)="requestData();">Juin</mat-option>
+          <mat-option value="2Months" (click)="requestData();">Mai</mat-option>
+          <mat-option value="3Months" (click)="requestData();">Avril</mat-option>
+          <mat-option value="4Months" (click)="requestData();">Mars</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="select-container-112">
+      <mat-form-field>
+        <mat-label class="select_title">Score</mat-label>
+        <mat-select [formControl]="scoreForm" multiple>
+          <mat-select-trigger>
+            {{scoreForm.value ? scoreForm.value[0] : ''}}
+            <span *ngIf="scoreForm.value?.length > 1" class="example-additional-selection">
+              (+{{scoreForm.value.length - 1}} {{scoreForm.value?.length === 2 ? 'autre' : 'autres'}})
+            </span>
+          </mat-select-trigger>
+          <mat-option 
+          *ngFor="let score of scoreList" 
+            [value]="score" 
+            [disabled]="scoreForm.value.length==1 && scoreForm.value[0]==score" 
+            (click)="scoreForm.value.length==1 && scoreForm.value[0]==score ?  '' : requestData(); "
+          >{{score}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="select-container-112">
+      <mat-form-field>
+        <mat-label class="select_title">Région</mat-label>
+        <mat-select [formControl]="regionForm" panelClass="mat-select-panel" multiple>
+          <mat-select-trigger>
+            {{regionForm.value ? regionForm.value[0] : ''}}
+            <span *ngIf="regionForm.value?.length > 1" class="example-additional-selection">
+              (+{{regionForm.value.length - 1}} {{regionForm.value?.length === 2 ? 'autre' : 'autres'}})
+            </span>
+          </mat-select-trigger>
+          <mat-option 
+          *ngFor="let region of regionListForm" 
+          [value]="region" 
+            [disabled]="regionForm.value.length==1 && regionForm.value[0]==region"  
+            (click)="regionForm.value.length==1 && regionForm.value[0]==region ?  '' : requestData(); "
+            >{{region}}</mat-option>
+        </mat-select>
+      </mat-form-field>
+    </div>
+    <div class="select-container-112">
+      <form class="example-form " style="display: flex; flex-direction: row;align-items: center;">
+        
+        <mat-form-field class="example-full-width">
+          <input 
+          type="text"
+          placeholder="Choisir une ville"
+          aria-label="Number"
+          matInput
+          [formControl]="cityForm"
+          [matAutocomplete]="auto"
+                >
+                <mat-autocomplete #auto="matAutocomplete">
+                  <mat-option *ngFor="let option of filteredOptions | async" [value]="option" (click)="requestData();">
+                    {{option}}
+                  </mat-option>
+                </mat-autocomplete>
+              </mat-form-field>
+              <mat-icon style="font-size: 15px; cursor: pointer;" (click)="clearCity();">close</mat-icon>
+      </form>
+    </div>
+  </div>
+  <div class="row">
+          <div class="btn-share">
+      <button mat-raised-button color="Basic" 
+      style="display: flex; align-items: center;" 
+      (click)="email.showPopupEmail()">
+      <mat-icon style="font-size: 20px;">share</mat-icon>
+      Partager
+    </button>
+  </div>
+    <div class="btn-export">
+      <button mat-raised-button color="primary" style="display: flex; align-items: center;"(click)="initExportListAgency();">
+        <mat-icon style="font-size: 20px;">save_alt</mat-icon>
+        Export
+      </button>
+    </div>
+  </div>
+</div>
+
+<div id="container-dv-cc-tc-1"></div>
+  <div class="globe-container">
+</div>
+
+
+
+
+  <app-email-report #email title='Rapport e-mail: Vélocité de conclusion, par type des crédits' ></app-email-report>
